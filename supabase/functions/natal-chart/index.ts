@@ -79,17 +79,30 @@ function lst(jd: number, longitude: number): number {
   return norm(gmst(jd) + longitude);
 }
 
-// Calculate Ascendant (Rising Sign)
+// Calculate Ascendant (Rising Sign) using standard formula
 function calcAscendant(jd: number, latitude: number, longitude: number): number {
   const localST = lst(jd, longitude);
   const latRad = degToRad(latitude);
   const oblRad = degToRad(OBLIQUITY);
   const lstRad = degToRad(localST);
   
-  // Ascendant formula
-  const y = -Math.cos(lstRad);
-  const x = Math.sin(lstRad) * Math.cos(oblRad) + Math.tan(latRad) * Math.sin(oblRad);
-  let asc = radToDeg(Math.atan2(y, x));
+  // Standard Ascendant formula: Asc = atan2(-cos(RAMC), sin(RAMC)*cos(ε) + tan(φ)*sin(ε))
+  // where RAMC = Local Sidereal Time, ε = obliquity, φ = latitude
+  const tanAsc = -Math.cos(lstRad) / (Math.sin(lstRad) * Math.cos(oblRad) + Math.tan(latRad) * Math.sin(oblRad));
+  
+  // Calculate base ascendant
+  let asc = radToDeg(Math.atan(tanAsc));
+  
+  // Correct quadrant based on LST
+  // LST 0-180° → Asc should be in 180-360° range (Libra through Pisces then Aries)
+  // LST 180-360° → Asc should be in 0-180° range (Aries through Virgo)
+  if (localST >= 0 && localST < 180) {
+    asc = asc + 180;
+  } else if (localST >= 180 && localST < 360) {
+    if (asc < 0) {
+      asc = asc + 360;
+    }
+  }
   
   return norm(asc);
 }
