@@ -1,73 +1,198 @@
-# Welcome to your Lovable project
+# Celestial Transit Data
 
-## Project info
+High-precision astrological ephemeris data as static JSON files, calculated using Swiss Ephemeris and ready to consume from any application.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Overview
 
-## How can I edit this code?
+This repository provides comprehensive astronomical data for astrological applications:
 
-There are several ways of editing your application.
+- **Daily Planetary Positions** - All 10 planets at midnight UTC each day
+- **Moon Phases** - Exact times of new moons, full moons, and quarters
+- **Major Transits** - Significant aspects between outer planets and sign ingresses
+- **Retrograde Periods** - Station retrograde/direct times with shadow periods
 
-**Use Lovable**
+All data is pre-calculated and stored as static JSON files for easy consumption by web apps, mobile apps, or any other client.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Quick Start
 
-Changes made via Lovable will be committed automatically to this repo.
+### Using the Data
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+Fetch daily positions for January 2025:
+```typescript
+const data = await fetch('/data/daily-positions/2025-01.json').then(r => r.json());
+const jan1 = data.positions[0];
+console.log(`Sun in ${jan1.planets.Sun.sign} at ${jan1.planets.Sun.degree_in_sign}°`);
 ```
 
-**Edit a file directly in GitHub**
+Find next full moon:
+```typescript
+const phases = await fetch('/data/moon-phases/2025.json').then(r => r.json());
+const nextFullMoon = phases.phases.find(p =>
+  p.phase === 'full' && new Date(p.date) > new Date()
+);
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Check if Mercury is retrograde:
+```typescript
+const retro = await fetch('/data/retrogrades/2025.json').then(r => r.json());
+const mercuryRx = retro.retrogrades.filter(r => r.planet === 'Mercury');
+```
 
-**Use GitHub Codespaces**
+### Regenerating Data
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Install Python dependencies:
+```bash
+cd scripts
+pip install -r requirements.txt
+```
 
-## What technologies are used for this project?
+Generate all ephemeris data for 2025-2026:
+```bash
+npm run generate:ephemeris
+```
 
-This project is built with:
+Or generate specific data types:
+```bash
+npm run generate:positions    # Daily positions only
+npm run generate:moon          # Moon phases only
+npm run generate:transits      # Aspects and ingresses
+npm run generate:retrogrades   # Retrograde periods
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Data Files
 
-## How can I deploy this project?
+```
+data/
+├── daily-positions/    # 24 files (YYYY-MM.json)
+│   ├── 2025-01.json   # ~50KB each
+│   └── ...
+├── moon-phases/        # 2 files (YYYY.json)
+│   ├── 2025.json      # ~20KB each
+│   └── 2026.json
+├── major-transits/     # 2 files (YYYY.json)
+│   ├── 2025.json      # ~30KB each
+│   └── 2026.json
+└── retrogrades/        # 2 files (YYYY.json)
+    ├── 2025.json      # ~10KB each
+    └── 2026.json
+```
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Total size: ~5MB for 2 years of comprehensive data
 
-## Can I connect a custom domain to my Lovable project?
+## Documentation
 
-Yes, you can!
+- **[Ephemeris Guide](docs/EPHEMERIS_GUIDE.md)** - Complete guide to regenerating and using the data
+- **[JSON Schemas](docs/JSON_SCHEMAS.md)** - Detailed schema documentation with TypeScript types and examples
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Technical Specifications
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- **Ephemeris**: Swiss Ephemeris 2.10.03 (JPL DE431)
+- **Accuracy**: Arc-second precision for modern dates
+- **Zodiac**: Tropical (fixed to seasons)
+- **Perspective**: Geocentric (Earth-centered)
+- **Timezone**: UTC (all timestamps)
+- **Precision**: 6 decimal places (0.0001° = 0.36 arcseconds)
+
+### Planets Tracked
+
+Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto
+
+### Aspect Types
+
+- Conjunction (0°, ±8° orb)
+- Sextile (60°, ±4° orb)
+- Square (90°, ±6° orb)
+- Trine (120°, ±6° orb)
+- Opposition (180°, ±8° orb)
+
+## Development
+
+### Frontend Development
+
+This repository also includes a React/TypeScript frontend for viewing the ephemeris data.
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+### Technology Stack
+
+**Frontend:**
+- React 18 with TypeScript
+- Vite for build tooling
+- shadcn-ui component library
+- Tailwind CSS for styling
+- Supabase for backend (optional)
+
+**Data Generation:**
+- Python 3.12+
+- pyswisseph (Swiss Ephemeris bindings)
+- pytz (timezone handling)
+
+## Project Structure
+
+```
+celestial-transit-data/
+├── data/                    # Generated JSON data files
+├── docs/                    # Documentation
+├── scripts/                 # Python data generation
+│   ├── lib/                # Calculation modules
+│   ├── utils/              # Helper utilities
+│   └── generate_ephemeris.py
+├── src/                     # React frontend
+├── supabase/               # Supabase configuration
+└── package.json            # NPM scripts
+```
+
+## Use Cases
+
+This ephemeris data is the single source of truth for:
+
+- **BabyRhythm** - Fertility tracking with lunar cycles
+- **Aster** - Birth chart analysis and transits
+- **General astrology apps** - Any application needing accurate planetary positions
+
+## Contributing
+
+To add more years:
+```bash
+cd scripts
+python3 generate_ephemeris.py --year 2027 2028 --all
+```
+
+To add more celestial bodies, edit `scripts/lib/config.py` and add entries to `PLANETS`.
+
+## License
+
+Data calculated using Swiss Ephemeris, which is licensed under AGPL or commercial license.
+
+## References
+
+- [Swiss Ephemeris](https://www.astro.com/swisseph/swisseph.htm)
+- [pyswisseph Documentation](https://astrorigin.com/pyswisseph/)
+- [Tropical Zodiac Explanation](https://www.astro.com/faq/fq_fh_owzodiac_e.htm)
+
+---
+
+## Deployment
+
+This project can be deployed through [Lovable](https://lovable.dev) or any static hosting service.
+
+To deploy via Lovable:
+1. Open your [Lovable project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID)
+2. Click Share → Publish
+
+To deploy statically:
+```bash
+npm run build
+# Upload dist/ folder to your hosting service
+```
+
+The JSON data files in `/data` will be accessible via HTTP fetch from any deployed frontend.

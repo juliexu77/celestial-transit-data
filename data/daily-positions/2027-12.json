@@ -1,0 +1,3018 @@
+{
+  "metadata": {
+    "month": "2027-12",
+    "generated_at": "2026-02-03T18:35:48Z",
+    "ephemeris_version": "Swiss Ephemeris 2.10.03",
+    "coordinate_system": "tropical zodiac, geocentric",
+    "precision": "6 decimal places (~0.0001 degree)"
+  },
+  "positions": [
+    {
+      "date": "2027-12-01",
+      "time": "00:00:00Z",
+      "julian_day": 2461740.5,
+      "planets": {
+        "Sun": {
+          "longitude": 248.548939,
+          "latitude": -3.2e-05,
+          "distance_au": 0.98624,
+          "speed": 1.013602,
+          "sign": "Sagitarius",
+          "degree_in_sign": 8.548939,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 281.674915,
+          "latitude": -1.91428,
+          "distance_au": 0.002665,
+          "speed": 12.230363,
+          "sign": "Capricorn",
+          "degree_in_sign": 11.674915,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 242.469266,
+          "latitude": -0.017853,
+          "distance_au": 1.420711,
+          "speed": 1.574896,
+          "sign": "Sagitarius",
+          "degree_in_sign": 2.469266,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 276.812649,
+          "latitude": -1.498308,
+          "distance_au": 1.426601,
+          "speed": 1.238024,
+          "sign": "Capricorn",
+          "degree_in_sign": 6.812649,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 273.963238,
+          "latitude": -1.027769,
+          "distance_au": 2.242922,
+          "speed": 0.761056,
+          "sign": "Capricorn",
+          "degree_in_sign": 3.963238,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 174.8105,
+          "latitude": 1.130396,
+          "distance_au": 5.610219,
+          "speed": 0.120882,
+          "sign": "Virgo",
+          "degree_in_sign": 24.8105,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.501934,
+          "latitude": -2.686742,
+          "distance_au": 8.609734,
+          "speed": -0.040686,
+          "sign": "Aries",
+          "degree_in_sign": 21.501934,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.905209,
+          "latitude": -0.088159,
+          "distance_au": 18.376853,
+          "speed": -0.042183,
+          "sign": "Gemini",
+          "degree_in_sign": 7.905209,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.911879,
+          "latitude": -1.442577,
+          "distance_au": 29.433138,
+          "speed": -0.008134,
+          "sign": "Aries",
+          "degree_in_sign": 3.911879,
+          "retrograde": true
+        },
+        "Pluto": {
+          "longitude": 305.194754,
+          "latitude": -4.739618,
+          "distance_au": 36.438256,
+          "speed": 0.019773,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.194754,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-02",
+      "time": "00:00:00Z",
+      "julian_day": 2461741.5,
+      "planets": {
+        "Sun": {
+          "longitude": 249.562683,
+          "latitude": 2e-06,
+          "distance_au": 0.986074,
+          "speed": 1.013879,
+          "sign": "Sagitarius",
+          "degree_in_sign": 9.562683,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 293.795542,
+          "latitude": -0.872527,
+          "distance_au": 0.002684,
+          "speed": 12.019382,
+          "sign": "Capricorn",
+          "degree_in_sign": 23.795542,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 244.043574,
+          "latitude": -0.131233,
+          "distance_au": 1.426411,
+          "speed": 1.573731,
+          "sign": "Sagitarius",
+          "degree_in_sign": 4.043574,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 278.050547,
+          "latitude": -1.526825,
+          "distance_au": 1.421787,
+          "speed": 1.237768,
+          "sign": "Capricorn",
+          "degree_in_sign": 8.050547,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 274.724717,
+          "latitude": -1.031968,
+          "distance_au": 2.2449,
+          "speed": 0.761897,
+          "sign": "Capricorn",
+          "degree_in_sign": 4.724717,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 174.930214,
+          "latitude": 1.134285,
+          "distance_au": 5.594836,
+          "speed": 0.11854,
+          "sign": "Virgo",
+          "degree_in_sign": 24.930214,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.46205,
+          "latitude": -2.682781,
+          "distance_au": 8.621985,
+          "speed": -0.039079,
+          "sign": "Aries",
+          "degree_in_sign": 21.46205,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.863032,
+          "latitude": -0.087992,
+          "distance_au": 18.377189,
+          "speed": -0.042169,
+          "sign": "Gemini",
+          "degree_in_sign": 7.863032,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.904015,
+          "latitude": -1.441916,
+          "distance_au": 29.44892,
+          "speed": -0.007594,
+          "sign": "Aries",
+          "degree_in_sign": 3.904015,
+          "retrograde": true
+        },
+        "Pluto": {
+          "longitude": 305.214716,
+          "latitude": -4.739053,
+          "distance_au": 36.453239,
+          "speed": 0.020148,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.214716,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-03",
+      "time": "00:00:00Z",
+      "julian_day": 2461742.5,
+      "planets": {
+        "Sun": {
+          "longitude": 250.576694,
+          "latitude": 3.7e-05,
+          "distance_au": 0.985911,
+          "speed": 1.014135,
+          "sign": "Sagitarius",
+          "degree_in_sign": 10.576694,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 305.733797,
+          "latitude": 0.195152,
+          "distance_au": 0.002698,
+          "speed": 11.868336,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.733797,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 245.616759,
+          "latitude": -0.243407,
+          "distance_au": 1.431489,
+          "speed": 1.572656,
+          "sign": "Sagitarius",
+          "degree_in_sign": 5.616759,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 279.288178,
+          "latitude": -1.554396,
+          "distance_au": 1.416942,
+          "speed": 1.237491,
+          "sign": "Capricorn",
+          "degree_in_sign": 9.288178,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 275.487029,
+          "latitude": -1.036062,
+          "distance_au": 2.246857,
+          "speed": 0.76272,
+          "sign": "Capricorn",
+          "degree_in_sign": 5.487029,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 175.04757,
+          "latitude": 1.138208,
+          "distance_au": 5.579387,
+          "speed": 0.116167,
+          "sign": "Virgo",
+          "degree_in_sign": 25.04757,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.423782,
+          "latitude": -2.678767,
+          "distance_au": 8.63444,
+          "speed": -0.037453,
+          "sign": "Aries",
+          "degree_in_sign": 21.423782,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.820876,
+          "latitude": -0.087823,
+          "distance_au": 18.377839,
+          "speed": -0.042139,
+          "sign": "Gemini",
+          "degree_in_sign": 7.820876,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.896691,
+          "latitude": -1.441248,
+          "distance_au": 29.464827,
+          "speed": -0.007054,
+          "sign": "Aries",
+          "degree_in_sign": 3.896691,
+          "retrograde": true
+        },
+        "Pluto": {
+          "longitude": 305.235048,
+          "latitude": -4.738509,
+          "distance_au": 36.468054,
+          "speed": 0.020516,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.235048,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-04",
+      "time": "00:00:00Z",
+      "julian_day": 2461743.5,
+      "planets": {
+        "Sun": {
+          "longitude": 251.590953,
+          "latitude": 7.2e-05,
+          "distance_au": 0.985752,
+          "speed": 1.014375,
+          "sign": "Sagitarius",
+          "degree_in_sign": 11.590953,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 317.556998,
+          "latitude": 1.246279,
+          "distance_au": 0.002705,
+          "speed": 11.79129,
+          "sign": "Aquarius",
+          "degree_in_sign": 17.556998,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 247.188931,
+          "latitude": -0.35419,
+          "distance_au": 1.435957,
+          "speed": 1.571712,
+          "sign": "Sagitarius",
+          "degree_in_sign": 7.188931,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 280.525523,
+          "latitude": -1.580995,
+          "distance_au": 1.412066,
+          "speed": 1.237195,
+          "sign": "Capricorn",
+          "degree_in_sign": 10.525523,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 276.250154,
+          "latitude": -1.040051,
+          "distance_au": 2.248794,
+          "speed": 0.763527,
+          "sign": "Capricorn",
+          "degree_in_sign": 6.250154,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 175.162538,
+          "latitude": 1.142163,
+          "distance_au": 5.563876,
+          "speed": 0.113765,
+          "sign": "Virgo",
+          "degree_in_sign": 25.162538,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.387149,
+          "latitude": -2.674703,
+          "distance_au": 8.647093,
+          "speed": -0.03581,
+          "sign": "Aries",
+          "degree_in_sign": 21.387149,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.77876,
+          "latitude": -0.087653,
+          "distance_au": 18.378804,
+          "speed": -0.042089,
+          "sign": "Gemini",
+          "degree_in_sign": 7.77876,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.889909,
+          "latitude": -1.440576,
+          "distance_au": 29.480853,
+          "speed": -0.00651,
+          "sign": "Aries",
+          "degree_in_sign": 3.889909,
+          "retrograde": true
+        },
+        "Pluto": {
+          "longitude": 305.255745,
+          "latitude": -4.737989,
+          "distance_au": 36.482697,
+          "speed": 0.020878,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.255745,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-05",
+      "time": "00:00:00Z",
+      "julian_day": 2461744.5,
+      "planets": {
+        "Sun": {
+          "longitude": 252.605445,
+          "latitude": 0.000104,
+          "distance_au": 0.985597,
+          "speed": 1.014602,
+          "sign": "Sagitarius",
+          "degree_in_sign": 12.605445,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 329.344409,
+          "latitude": 2.242242,
+          "distance_au": 0.002704,
+          "speed": 11.798048,
+          "sign": "Aquarius",
+          "degree_in_sign": 29.344409,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 248.760238,
+          "latitude": -0.463405,
+          "distance_au": 1.439824,
+          "speed": 1.570931,
+          "sign": "Sagitarius",
+          "degree_in_sign": 8.760238,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 281.762564,
+          "latitude": -1.606599,
+          "distance_au": 1.407159,
+          "speed": 1.236883,
+          "sign": "Capricorn",
+          "degree_in_sign": 11.762564,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 277.01408,
+          "latitude": -1.043934,
+          "distance_au": 2.25071,
+          "speed": 0.76432,
+          "sign": "Capricorn",
+          "degree_in_sign": 7.01408,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 175.275092,
+          "latitude": 1.14615,
+          "distance_au": 5.548306,
+          "speed": 0.111337,
+          "sign": "Virgo",
+          "degree_in_sign": 25.275092,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.352168,
+          "latitude": -2.670589,
+          "distance_au": 8.65994,
+          "speed": -0.034147,
+          "sign": "Aries",
+          "degree_in_sign": 21.352168,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.736705,
+          "latitude": -0.087481,
+          "distance_au": 18.380082,
+          "speed": -0.042018,
+          "sign": "Gemini",
+          "degree_in_sign": 7.736705,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.883672,
+          "latitude": -1.439899,
+          "distance_au": 29.496995,
+          "speed": -0.005962,
+          "sign": "Aries",
+          "degree_in_sign": 3.883672,
+          "retrograde": true
+        },
+        "Pluto": {
+          "longitude": 305.276802,
+          "latitude": -4.737491,
+          "distance_au": 36.497163,
+          "speed": 0.021235,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.276802,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-06",
+      "time": "00:00:00Z",
+      "julian_day": 2461745.5,
+      "planets": {
+        "Sun": {
+          "longitude": 253.620159,
+          "latitude": 0.000133,
+          "distance_au": 0.985446,
+          "speed": 1.01482,
+          "sign": "Sagitarius",
+          "degree_in_sign": 13.620159,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 341.182926,
+          "latitude": 3.147005,
+          "distance_au": 0.002694,
+          "speed": 11.89402,
+          "sign": "Pisces",
+          "degree_in_sign": 11.182926,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 250.330857,
+          "latitude": -0.570882,
+          "distance_au": 1.443099,
+          "speed": 1.570341,
+          "sign": "Sagitarius",
+          "degree_in_sign": 10.330857,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 282.999285,
+          "latitude": -1.631184,
+          "distance_au": 1.402221,
+          "speed": 1.236555,
+          "sign": "Capricorn",
+          "degree_in_sign": 12.999285,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 277.778792,
+          "latitude": -1.047711,
+          "distance_au": 2.252607,
+          "speed": 0.765101,
+          "sign": "Capricorn",
+          "degree_in_sign": 7.778792,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 175.385204,
+          "latitude": 1.150168,
+          "distance_au": 5.532683,
+          "speed": 0.108884,
+          "sign": "Virgo",
+          "degree_in_sign": 25.385204,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.31886,
+          "latitude": -2.666429,
+          "distance_au": 8.672977,
+          "speed": -0.032466,
+          "sign": "Aries",
+          "degree_in_sign": 21.31886,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.69473,
+          "latitude": -0.087308,
+          "distance_au": 18.381673,
+          "speed": -0.041926,
+          "sign": "Gemini",
+          "degree_in_sign": 7.69473,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.877986,
+          "latitude": -1.439217,
+          "distance_au": 29.513245,
+          "speed": -0.005409,
+          "sign": "Aries",
+          "degree_in_sign": 3.877986,
+          "retrograde": true
+        },
+        "Pluto": {
+          "longitude": 305.298215,
+          "latitude": -4.737018,
+          "distance_au": 36.511448,
+          "speed": 0.02159,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.298215,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-07",
+      "time": "00:00:00Z",
+      "julian_day": 2461746.5,
+      "planets": {
+        "Sun": {
+          "longitude": 254.635086,
+          "latitude": 0.000158,
+          "distance_au": 0.9853,
+          "speed": 1.01503,
+          "sign": "Sagitarius",
+          "degree_in_sign": 14.635086,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 353.162437,
+          "latitude": 3.925344,
+          "distance_au": 0.002676,
+          "speed": 12.079624,
+          "sign": "Pisces",
+          "degree_in_sign": 23.162437,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 251.900991,
+          "latitude": -0.676454,
+          "distance_au": 1.445787,
+          "speed": 1.569964,
+          "sign": "Sagitarius",
+          "degree_in_sign": 11.900991,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 284.235671,
+          "latitude": -1.654727,
+          "distance_au": 1.397253,
+          "speed": 1.236214,
+          "sign": "Capricorn",
+          "degree_in_sign": 14.235671,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 278.54428,
+          "latitude": -1.051384,
+          "distance_au": 2.254484,
+          "speed": 0.765872,
+          "sign": "Capricorn",
+          "degree_in_sign": 8.54428,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 175.492852,
+          "latitude": 1.154216,
+          "distance_au": 5.517008,
+          "speed": 0.106408,
+          "sign": "Virgo",
+          "degree_in_sign": 25.492852,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.287242,
+          "latitude": -2.662225,
+          "distance_au": 8.686198,
+          "speed": -0.030766,
+          "sign": "Aries",
+          "degree_in_sign": 21.287242,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.652859,
+          "latitude": -0.087134,
+          "distance_au": 18.383576,
+          "speed": -0.041812,
+          "sign": "Gemini",
+          "degree_in_sign": 7.652859,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.872855,
+          "latitude": -1.438531,
+          "distance_au": 29.5296,
+          "speed": -0.00485,
+          "sign": "Aries",
+          "degree_in_sign": 3.872855,
+          "retrograde": true
+        },
+        "Pluto": {
+          "longitude": 305.319982,
+          "latitude": -4.736569,
+          "distance_au": 36.525549,
+          "speed": 0.021943,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.319982,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-08",
+      "time": "00:00:00Z",
+      "julian_day": 2461747.5,
+      "planets": {
+        "Sun": {
+          "longitude": 255.650222,
+          "latitude": 0.000176,
+          "distance_au": 0.985158,
+          "speed": 1.015237,
+          "sign": "Sagitarius",
+          "degree_in_sign": 15.650222,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 5.370272,
+          "latitude": 4.541412,
+          "distance_au": 0.00265,
+          "speed": 12.349098,
+          "sign": "Aries",
+          "degree_in_sign": 5.370272,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 253.470863,
+          "latitude": -0.779956,
+          "distance_au": 1.447896,
+          "speed": 1.569819,
+          "sign": "Sagitarius",
+          "degree_in_sign": 13.470863,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 285.471709,
+          "latitude": -1.677205,
+          "distance_au": 1.392254,
+          "speed": 1.235861,
+          "sign": "Capricorn",
+          "degree_in_sign": 15.471709,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 279.310535,
+          "latitude": -1.054951,
+          "distance_au": 2.256343,
+          "speed": 0.766635,
+          "sign": "Capricorn",
+          "degree_in_sign": 9.310535,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 175.598013,
+          "latitude": 1.158294,
+          "distance_au": 5.501287,
+          "speed": 0.10391,
+          "sign": "Virgo",
+          "degree_in_sign": 25.598013,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.257335,
+          "latitude": -2.657977,
+          "distance_au": 8.699599,
+          "speed": -0.029047,
+          "sign": "Aries",
+          "degree_in_sign": 21.257335,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.611115,
+          "latitude": -0.086959,
+          "distance_au": 18.38579,
+          "speed": -0.041673,
+          "sign": "Gemini",
+          "degree_in_sign": 7.611115,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.868288,
+          "latitude": -1.437842,
+          "distance_au": 29.546053,
+          "speed": -0.004284,
+          "sign": "Aries",
+          "degree_in_sign": 3.868288,
+          "retrograde": true
+        },
+        "Pluto": {
+          "longitude": 305.342101,
+          "latitude": -4.736144,
+          "distance_au": 36.539461,
+          "speed": 0.022295,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.342101,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-09",
+      "time": "00:00:00Z",
+      "julian_day": 2461748.5,
+      "planets": {
+        "Sun": {
+          "longitude": 256.665565,
+          "latitude": 0.000187,
+          "distance_au": 0.985021,
+          "speed": 1.015444,
+          "sign": "Sagitarius",
+          "degree_in_sign": 16.665565,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 17.88435,
+          "latitude": 4.958505,
+          "distance_au": 0.002618,
+          "speed": 12.689185,
+          "sign": "Aries",
+          "degree_in_sign": 17.88435,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 255.040712,
+          "latitude": -0.881229,
+          "distance_au": 1.44943,
+          "speed": 1.569921,
+          "sign": "Sagitarius",
+          "degree_in_sign": 15.040712,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 286.70739,
+          "latitude": -1.698596,
+          "distance_au": 1.387226,
+          "speed": 1.235497,
+          "sign": "Capricorn",
+          "degree_in_sign": 16.70739,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 280.077549,
+          "latitude": -1.058413,
+          "distance_au": 2.258184,
+          "speed": 0.767391,
+          "sign": "Capricorn",
+          "degree_in_sign": 10.077549,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 175.700666,
+          "latitude": 1.162402,
+          "distance_au": 5.485523,
+          "speed": 0.101392,
+          "sign": "Virgo",
+          "degree_in_sign": 25.700666,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.229156,
+          "latitude": -2.65369,
+          "distance_au": 8.713174,
+          "speed": -0.02731,
+          "sign": "Aries",
+          "degree_in_sign": 21.229156,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.56952,
+          "latitude": -0.086782,
+          "distance_au": 18.388314,
+          "speed": -0.041511,
+          "sign": "Gemini",
+          "degree_in_sign": 7.56952,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.86429,
+          "latitude": -1.437148,
+          "distance_au": 29.5626,
+          "speed": -0.003711,
+          "sign": "Aries",
+          "degree_in_sign": 3.86429,
+          "retrograde": true
+        },
+        "Pluto": {
+          "longitude": 305.364572,
+          "latitude": -4.735745,
+          "distance_au": 36.553181,
+          "speed": 0.022646,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.364572,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-10",
+      "time": "00:00:00Z",
+      "julian_day": 2461749.5,
+      "planets": {
+        "Sun": {
+          "longitude": 257.681116,
+          "latitude": 0.000191,
+          "distance_au": 0.984889,
+          "speed": 1.015654,
+          "sign": "Sagitarius",
+          "degree_in_sign": 17.681116,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 30.765193,
+          "latitude": 5.140682,
+          "distance_au": 0.002582,
+          "speed": 13.078281,
+          "sign": "Taurus",
+          "degree_in_sign": 0.765193,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 256.610791,
+          "latitude": -0.980113,
+          "distance_au": 1.450393,
+          "speed": 1.570282,
+          "sign": "Sagitarius",
+          "degree_in_sign": 16.610791,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 287.942702,
+          "latitude": -1.718877,
+          "distance_au": 1.382168,
+          "speed": 1.235124,
+          "sign": "Capricorn",
+          "degree_in_sign": 17.942702,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 280.845316,
+          "latitude": -1.06177,
+          "distance_au": 2.260006,
+          "speed": 0.768141,
+          "sign": "Capricorn",
+          "degree_in_sign": 10.845316,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 175.80079,
+          "latitude": 1.166537,
+          "distance_au": 5.46972,
+          "speed": 0.098853,
+          "sign": "Virgo",
+          "degree_in_sign": 25.80079,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.202722,
+          "latitude": -2.649364,
+          "distance_au": 8.726919,
+          "speed": -0.025555,
+          "sign": "Aries",
+          "degree_in_sign": 21.202722,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.528099,
+          "latitude": -0.086605,
+          "distance_au": 18.391147,
+          "speed": -0.041326,
+          "sign": "Gemini",
+          "degree_in_sign": 7.528099,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.860869,
+          "latitude": -1.436451,
+          "distance_au": 29.579235,
+          "speed": -0.00313,
+          "sign": "Aries",
+          "degree_in_sign": 3.860869,
+          "retrograde": true
+        },
+        "Pluto": {
+          "longitude": 305.387395,
+          "latitude": -4.735372,
+          "distance_au": 36.566706,
+          "speed": 0.022997,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.387395,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-11",
+      "time": "00:00:00Z",
+      "julian_day": 2461750.5,
+      "planets": {
+        "Sun": {
+          "longitude": 258.696879,
+          "latitude": 0.000186,
+          "distance_au": 0.984762,
+          "speed": 1.015868,
+          "sign": "Sagitarius",
+          "degree_in_sign": 18.696879,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 44.047553,
+          "latitude": 5.056599,
+          "distance_au": 0.002544,
+          "speed": 13.486613,
+          "sign": "Taurus",
+          "degree_in_sign": 14.047553,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 258.181367,
+          "latitude": -1.076444,
+          "distance_au": 1.450787,
+          "speed": 1.570914,
+          "sign": "Sagitarius",
+          "degree_in_sign": 18.181367,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 289.177636,
+          "latitude": -1.738026,
+          "distance_au": 1.377081,
+          "speed": 1.234742,
+          "sign": "Capricorn",
+          "degree_in_sign": 19.177636,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 281.613832,
+          "latitude": -1.06502,
+          "distance_au": 2.261812,
+          "speed": 0.768887,
+          "sign": "Capricorn",
+          "degree_in_sign": 11.613832,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 175.898365,
+          "latitude": 1.170701,
+          "distance_au": 5.453881,
+          "speed": 0.096292,
+          "sign": "Virgo",
+          "degree_in_sign": 25.898365,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.178051,
+          "latitude": -2.645002,
+          "distance_au": 8.740829,
+          "speed": -0.023786,
+          "sign": "Aries",
+          "degree_in_sign": 21.178051,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.486875,
+          "latitude": -0.086427,
+          "distance_au": 18.394288,
+          "speed": -0.041119,
+          "sign": "Gemini",
+          "degree_in_sign": 7.486875,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.858032,
+          "latitude": -1.435752,
+          "distance_au": 29.595953,
+          "speed": -0.002544,
+          "sign": "Aries",
+          "degree_in_sign": 3.858032,
+          "retrograde": true
+        },
+        "Pluto": {
+          "longitude": 305.410568,
+          "latitude": -4.735025,
+          "distance_au": 36.580032,
+          "speed": 0.023347,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.410568,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-12",
+      "time": "00:00:00Z",
+      "julian_day": 2461751.5,
+      "planets": {
+        "Sun": {
+          "longitude": 259.712859,
+          "latitude": 0.000172,
+          "distance_au": 0.984642,
+          "speed": 1.016088,
+          "sign": "Sagitarius",
+          "degree_in_sign": 19.712859,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 57.733042,
+          "latitude": 4.68565,
+          "distance_au": 0.002509,
+          "speed": 13.8782,
+          "sign": "Taurus",
+          "degree_in_sign": 27.733042,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 259.752705,
+          "latitude": -1.170047,
+          "distance_au": 1.450615,
+          "speed": 1.571802,
+          "sign": "Sagitarius",
+          "degree_in_sign": 19.752705,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 290.412184,
+          "latitude": -1.756021,
+          "distance_au": 1.371965,
+          "speed": 1.234351,
+          "sign": "Capricorn",
+          "degree_in_sign": 20.412184,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 282.38309,
+          "latitude": -1.068164,
+          "distance_au": 2.263601,
+          "speed": 0.769626,
+          "sign": "Capricorn",
+          "degree_in_sign": 12.38309,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 175.993368,
+          "latitude": 1.174891,
+          "distance_au": 5.438011,
+          "speed": 0.093708,
+          "sign": "Virgo",
+          "degree_in_sign": 25.993368,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.155156,
+          "latitude": -2.640604,
+          "distance_au": 8.7549,
+          "speed": -0.022005,
+          "sign": "Aries",
+          "degree_in_sign": 21.155156,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.445868,
+          "latitude": -0.086248,
+          "distance_au": 18.397735,
+          "speed": -0.040893,
+          "sign": "Gemini",
+          "degree_in_sign": 7.445868,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.855783,
+          "latitude": -1.435049,
+          "distance_au": 29.61275,
+          "speed": -0.001955,
+          "sign": "Aries",
+          "degree_in_sign": 3.855783,
+          "retrograde": true
+        },
+        "Pluto": {
+          "longitude": 305.434089,
+          "latitude": -4.734705,
+          "distance_au": 36.593155,
+          "speed": 0.023692,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.434089,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-13",
+      "time": "00:00:00Z",
+      "julian_day": 2461752.5,
+      "planets": {
+        "Sun": {
+          "longitude": 260.72906,
+          "latitude": 0.000151,
+          "distance_au": 0.984527,
+          "speed": 1.016312,
+          "sign": "Sagitarius",
+          "degree_in_sign": 20.72906,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 71.785941,
+          "latitude": 4.025598,
+          "distance_au": 0.002478,
+          "speed": 14.215349,
+          "sign": "Gemini",
+          "degree_in_sign": 11.785941,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 261.325053,
+          "latitude": -1.260752,
+          "distance_au": 1.449875,
+          "speed": 1.572937,
+          "sign": "Sagitarius",
+          "degree_in_sign": 21.325053,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 291.646335,
+          "latitude": -1.77284,
+          "distance_au": 1.36682,
+          "speed": 1.233948,
+          "sign": "Capricorn",
+          "degree_in_sign": 21.646335,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 283.153082,
+          "latitude": -1.071201,
+          "distance_au": 2.265374,
+          "speed": 0.770356,
+          "sign": "Capricorn",
+          "degree_in_sign": 13.153082,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 176.085772,
+          "latitude": 1.179109,
+          "distance_au": 5.422113,
+          "speed": 0.091095,
+          "sign": "Virgo",
+          "degree_in_sign": 26.085772,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.134044,
+          "latitude": -2.636175,
+          "distance_au": 8.769126,
+          "speed": -0.020218,
+          "sign": "Aries",
+          "degree_in_sign": 21.134044,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.405094,
+          "latitude": -0.086067,
+          "distance_au": 18.401487,
+          "speed": -0.040653,
+          "sign": "Gemini",
+          "degree_in_sign": 7.405094,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.854122,
+          "latitude": -1.434344,
+          "distance_au": 29.62962,
+          "speed": -0.001368,
+          "sign": "Aries",
+          "degree_in_sign": 3.854122,
+          "retrograde": true
+        },
+        "Pluto": {
+          "longitude": 305.457952,
+          "latitude": -4.734411,
+          "distance_au": 36.606072,
+          "speed": 0.024029,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.457952,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-14",
+      "time": "00:00:00Z",
+      "julian_day": 2461753.5,
+      "planets": {
+        "Sun": {
+          "longitude": 261.745487,
+          "latitude": 0.000123,
+          "distance_au": 0.984419,
+          "speed": 1.016539,
+          "sign": "Sagitarius",
+          "degree_in_sign": 21.745487,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 86.134774,
+          "latitude": 3.099526,
+          "distance_au": 0.002454,
+          "speed": 14.465489,
+          "sign": "Gemini",
+          "degree_in_sign": 26.134774,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 262.898665,
+          "latitude": -1.348403,
+          "distance_au": 1.448569,
+          "speed": 1.57433,
+          "sign": "Sagitarius",
+          "degree_in_sign": 22.898665,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 292.880077,
+          "latitude": -1.788462,
+          "distance_au": 1.361647,
+          "speed": 1.233532,
+          "sign": "Capricorn",
+          "degree_in_sign": 22.880077,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 283.9238,
+          "latitude": -1.074129,
+          "distance_au": 2.267132,
+          "speed": 0.771075,
+          "sign": "Capricorn",
+          "degree_in_sign": 13.9238,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 176.175546,
+          "latitude": 1.183354,
+          "distance_au": 5.40619,
+          "speed": 0.088448,
+          "sign": "Virgo",
+          "degree_in_sign": 26.175546,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.11472,
+          "latitude": -2.631714,
+          "distance_au": 8.783503,
+          "speed": -0.01843,
+          "sign": "Aries",
+          "degree_in_sign": 21.11472,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.364565,
+          "latitude": -0.085886,
+          "distance_au": 18.405543,
+          "speed": -0.040403,
+          "sign": "Gemini",
+          "degree_in_sign": 7.364565,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.853045,
+          "latitude": -1.433636,
+          "distance_au": 29.646558,
+          "speed": -0.000787,
+          "sign": "Aries",
+          "degree_in_sign": 3.853045,
+          "retrograde": true
+        },
+        "Pluto": {
+          "longitude": 305.482145,
+          "latitude": -4.734145,
+          "distance_au": 36.618781,
+          "speed": 0.024354,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.482145,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-15",
+      "time": "00:00:00Z",
+      "julian_day": 2461754.5,
+      "planets": {
+        "Sun": {
+          "longitude": 262.762142,
+          "latitude": 8.9e-05,
+          "distance_au": 0.984317,
+          "speed": 1.016767,
+          "sign": "Sagitarius",
+          "degree_in_sign": 22.762142,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 100.681104,
+          "latitude": 1.958927,
+          "distance_au": 0.002439,
+          "speed": 14.608319,
+          "sign": "Cancer",
+          "degree_in_sign": 10.681104,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 264.473797,
+          "latitude": -1.432829,
+          "distance_au": 1.446693,
+          "speed": 1.575974,
+          "sign": "Sagitarius",
+          "degree_in_sign": 24.473797,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 294.113396,
+          "latitude": -1.802865,
+          "distance_au": 1.356446,
+          "speed": 1.233103,
+          "sign": "Capricorn",
+          "degree_in_sign": 24.113396,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 284.69523,
+          "latitude": -1.076948,
+          "distance_au": 2.268875,
+          "speed": 0.771781,
+          "sign": "Capricorn",
+          "degree_in_sign": 14.69523,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 176.262655,
+          "latitude": 1.187625,
+          "distance_au": 5.390247,
+          "speed": 0.085763,
+          "sign": "Virgo",
+          "degree_in_sign": 26.262655,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.097184,
+          "latitude": -2.627223,
+          "distance_au": 8.798026,
+          "speed": -0.016643,
+          "sign": "Aries",
+          "degree_in_sign": 21.097184,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.32429,
+          "latitude": -0.085704,
+          "distance_au": 18.409902,
+          "speed": -0.040146,
+          "sign": "Gemini",
+          "degree_in_sign": 7.32429,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.852545,
+          "latitude": -1.432927,
+          "distance_au": 29.66356,
+          "speed": -0.000215,
+          "sign": "Aries",
+          "degree_in_sign": 3.852545,
+          "retrograde": true
+        },
+        "Pluto": {
+          "longitude": 305.506655,
+          "latitude": -4.733907,
+          "distance_au": 36.631277,
+          "speed": 0.024662,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.506655,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-16",
+      "time": "00:00:00Z",
+      "julian_day": 2461755.5,
+      "planets": {
+        "Sun": {
+          "longitude": 263.779025,
+          "latitude": 5.1e-05,
+          "distance_au": 0.984221,
+          "speed": 1.016997,
+          "sign": "Sagitarius",
+          "degree_in_sign": 23.779025,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 115.314313,
+          "latitude": 0.680433,
+          "distance_au": 0.002433,
+          "speed": 14.640088,
+          "sign": "Cancer",
+          "degree_in_sign": 25.314313,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 266.050692,
+          "latitude": -1.513853,
+          "distance_au": 1.444244,
+          "speed": 1.577855,
+          "sign": "Sagitarius",
+          "degree_in_sign": 26.050692,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 295.34628,
+          "latitude": -1.81603,
+          "distance_au": 1.351217,
+          "speed": 1.232663,
+          "sign": "Capricorn",
+          "degree_in_sign": 25.34628,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 285.467361,
+          "latitude": -1.079657,
+          "distance_au": 2.270603,
+          "speed": 0.772476,
+          "sign": "Capricorn",
+          "degree_in_sign": 15.467361,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 176.34706,
+          "latitude": 1.191922,
+          "distance_au": 5.374287,
+          "speed": 0.083041,
+          "sign": "Virgo",
+          "degree_in_sign": 26.34706,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.081433,
+          "latitude": -2.622704,
+          "distance_au": 8.812691,
+          "speed": -0.014858,
+          "sign": "Aries",
+          "degree_in_sign": 21.081433,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.284275,
+          "latitude": -0.085521,
+          "distance_au": 18.414562,
+          "speed": -0.039882,
+          "sign": "Gemini",
+          "degree_in_sign": 7.284275,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.852613,
+          "latitude": -1.432215,
+          "distance_au": 29.68062,
+          "speed": 0.000349,
+          "sign": "Aries",
+          "degree_in_sign": 3.852613,
+          "retrograde": false
+        },
+        "Pluto": {
+          "longitude": 305.531465,
+          "latitude": -4.733697,
+          "distance_au": 36.643558,
+          "speed": 0.024956,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.531465,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-17",
+      "time": "00:00:00Z",
+      "julian_day": 2461756.5,
+      "planets": {
+        "Sun": {
+          "longitude": 264.796139,
+          "latitude": 1.1e-05,
+          "distance_au": 0.984131,
+          "speed": 1.01723,
+          "sign": "Sagitarius",
+          "degree_in_sign": 24.796139,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 129.92821,
+          "latitude": -0.643725,
+          "distance_au": 0.002437,
+          "speed": 14.572823,
+          "sign": "Leo",
+          "degree_in_sign": 9.92821,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 267.629582,
+          "latitude": -1.591287,
+          "distance_au": 1.441219,
+          "speed": 1.579961,
+          "sign": "Sagitarius",
+          "degree_in_sign": 27.629582,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 296.57872,
+          "latitude": -1.827934,
+          "distance_au": 1.345961,
+          "speed": 1.232215,
+          "sign": "Capricorn",
+          "degree_in_sign": 26.57872,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 286.240182,
+          "latitude": -1.082253,
+          "distance_au": 2.272317,
+          "speed": 0.773163,
+          "sign": "Capricorn",
+          "degree_in_sign": 16.240182,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 176.428725,
+          "latitude": 1.196245,
+          "distance_au": 5.358314,
+          "speed": 0.080284,
+          "sign": "Virgo",
+          "degree_in_sign": 26.428725,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.067468,
+          "latitude": -2.618159,
+          "distance_au": 8.827493,
+          "speed": -0.013071,
+          "sign": "Aries",
+          "degree_in_sign": 21.067468,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.244529,
+          "latitude": -0.085336,
+          "distance_au": 18.419522,
+          "speed": -0.039608,
+          "sign": "Gemini",
+          "degree_in_sign": 7.244529,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.853241,
+          "latitude": -1.431502,
+          "distance_au": 29.697734,
+          "speed": 0.000908,
+          "sign": "Aries",
+          "degree_in_sign": 3.853241,
+          "retrograde": false
+        },
+        "Pluto": {
+          "longitude": 305.556562,
+          "latitude": -4.733515,
+          "distance_au": 36.655621,
+          "speed": 0.025238,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.556562,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-18",
+      "time": "00:00:00Z",
+      "julian_day": 2461757.5,
+      "planets": {
+        "Sun": {
+          "longitude": 265.813489,
+          "latitude": -2.8e-05,
+          "distance_au": 0.984047,
+          "speed": 1.017468,
+          "sign": "Sagitarius",
+          "degree_in_sign": 25.813489,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 144.43444,
+          "latitude": -1.918587,
+          "distance_au": 0.002448,
+          "speed": 14.429016,
+          "sign": "Leo",
+          "degree_in_sign": 24.43444,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 269.210683,
+          "latitude": -1.66494,
+          "distance_au": 1.437612,
+          "speed": 1.582277,
+          "sign": "Sagitarius",
+          "degree_in_sign": 29.210683,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 297.810711,
+          "latitude": -1.838559,
+          "distance_au": 1.340676,
+          "speed": 1.231766,
+          "sign": "Capricorn",
+          "degree_in_sign": 27.810711,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 287.013687,
+          "latitude": -1.084737,
+          "distance_au": 2.274016,
+          "speed": 0.773847,
+          "sign": "Capricorn",
+          "degree_in_sign": 17.013687,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 176.507616,
+          "latitude": 1.200594,
+          "distance_au": 5.342331,
+          "speed": 0.077495,
+          "sign": "Virgo",
+          "degree_in_sign": 26.507616,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.055293,
+          "latitude": -2.613589,
+          "distance_au": 8.842429,
+          "speed": -0.011276,
+          "sign": "Aries",
+          "degree_in_sign": 21.055293,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.205065,
+          "latitude": -0.085151,
+          "distance_au": 18.42478,
+          "speed": -0.039316,
+          "sign": "Gemini",
+          "degree_in_sign": 7.205065,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.854428,
+          "latitude": -1.430787,
+          "distance_au": 29.714897,
+          "speed": 0.001467,
+          "sign": "Aries",
+          "degree_in_sign": 3.854428,
+          "retrograde": false
+        },
+        "Pluto": {
+          "longitude": 305.581938,
+          "latitude": -4.733361,
+          "distance_au": 36.667461,
+          "speed": 0.025514,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.581938,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-19",
+      "time": "00:00:00Z",
+      "julian_day": 2461758.5,
+      "planets": {
+        "Sun": {
+          "longitude": 266.831079,
+          "latitude": -6.4e-05,
+          "distance_au": 0.983969,
+          "speed": 1.01771,
+          "sign": "Sagitarius",
+          "degree_in_sign": 26.831079,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 158.7694,
+          "latitude": -3.058452,
+          "distance_au": 0.002465,
+          "speed": 14.234527,
+          "sign": "Virgo",
+          "degree_in_sign": 8.7694,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 270.794198,
+          "latitude": -1.734611,
+          "distance_au": 1.433416,
+          "speed": 1.584783,
+          "sign": "Capricorn",
+          "degree_in_sign": 0.794198,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 299.042253,
+          "latitude": -1.847885,
+          "distance_au": 1.335364,
+          "speed": 1.231317,
+          "sign": "Capricorn",
+          "degree_in_sign": 29.042253,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 287.787877,
+          "latitude": -1.087107,
+          "distance_au": 2.275701,
+          "speed": 0.77453,
+          "sign": "Capricorn",
+          "degree_in_sign": 17.787877,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 176.583707,
+          "latitude": 1.204969,
+          "distance_au": 5.326343,
+          "speed": 0.074682,
+          "sign": "Virgo",
+          "degree_in_sign": 26.583707,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.04492,
+          "latitude": -2.608995,
+          "distance_au": 8.857492,
+          "speed": -0.009468,
+          "sign": "Aries",
+          "degree_in_sign": 21.04492,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.165903,
+          "latitude": -0.084963,
+          "distance_au": 18.430335,
+          "speed": -0.039003,
+          "sign": "Gemini",
+          "degree_in_sign": 7.165903,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.856176,
+          "latitude": -1.430071,
+          "distance_au": 29.732103,
+          "speed": 0.002032,
+          "sign": "Aries",
+          "degree_in_sign": 3.856176,
+          "retrograde": false
+        },
+        "Pluto": {
+          "longitude": 305.607589,
+          "latitude": -4.733237,
+          "distance_au": 36.679076,
+          "speed": 0.025789,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.607589,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-20",
+      "time": "00:00:00Z",
+      "julian_day": 2461759.5,
+      "planets": {
+        "Sun": {
+          "longitude": 267.848913,
+          "latitude": -9.5e-05,
+          "distance_au": 0.983896,
+          "speed": 1.017956,
+          "sign": "Sagitarius",
+          "degree_in_sign": 27.848913,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 172.894439,
+          "latitude": -3.99492,
+          "distance_au": 0.002486,
+          "speed": 14.0126,
+          "sign": "Virgo",
+          "degree_in_sign": 22.894439,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 272.380302,
+          "latitude": -1.800094,
+          "distance_au": 1.428622,
+          "speed": 1.587452,
+          "sign": "Capricorn",
+          "degree_in_sign": 2.380302,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 300.273347,
+          "latitude": -1.855894,
+          "distance_au": 1.330024,
+          "speed": 1.23087,
+          "sign": "Aquarius",
+          "degree_in_sign": 0.273347,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 288.562751,
+          "latitude": -1.089361,
+          "distance_au": 2.277372,
+          "speed": 0.775216,
+          "sign": "Capricorn",
+          "degree_in_sign": 18.562751,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 176.656972,
+          "latitude": 1.209369,
+          "distance_au": 5.310354,
+          "speed": 0.071846,
+          "sign": "Virgo",
+          "degree_in_sign": 26.656972,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.036362,
+          "latitude": -2.604379,
+          "distance_au": 8.872679,
+          "speed": -0.007644,
+          "sign": "Aries",
+          "degree_in_sign": 21.036362,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.127067,
+          "latitude": -0.084775,
+          "distance_au": 18.436185,
+          "speed": -0.038664,
+          "sign": "Gemini",
+          "degree_in_sign": 7.127067,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.858495,
+          "latitude": -1.429354,
+          "distance_au": 29.749348,
+          "speed": 0.002607,
+          "sign": "Aries",
+          "degree_in_sign": 3.858495,
+          "retrograde": false
+        },
+        "Pluto": {
+          "longitude": 305.633516,
+          "latitude": -4.733142,
+          "distance_au": 36.690463,
+          "speed": 0.026066,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.633516,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-21",
+      "time": "00:00:00Z",
+      "julian_day": 2461760.5,
+      "planets": {
+        "Sun": {
+          "longitude": 268.866993,
+          "latitude": -0.00012,
+          "distance_au": 0.983828,
+          "speed": 1.0182,
+          "sign": "Sagitarius",
+          "degree_in_sign": 28.866993,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 186.791316,
+          "latitude": -4.68023,
+          "distance_au": 0.002509,
+          "speed": 13.780479,
+          "sign": "Libra",
+          "degree_in_sign": 6.791316,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 273.969144,
+          "latitude": -1.861169,
+          "distance_au": 1.423223,
+          "speed": 1.59025,
+          "sign": "Capricorn",
+          "degree_in_sign": 3.969144,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 301.503993,
+          "latitude": -1.862568,
+          "distance_au": 1.324656,
+          "speed": 1.230421,
+          "sign": "Aquarius",
+          "degree_in_sign": 1.503993,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 289.33831,
+          "latitude": -1.091498,
+          "distance_au": 2.279029,
+          "speed": 0.7759,
+          "sign": "Capricorn",
+          "degree_in_sign": 19.33831,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 176.727391,
+          "latitude": 1.213794,
+          "distance_au": 5.294368,
+          "speed": 0.068988,
+          "sign": "Virgo",
+          "degree_in_sign": 26.727391,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.029637,
+          "latitude": -2.599742,
+          "distance_au": 8.887984,
+          "speed": -0.005804,
+          "sign": "Aries",
+          "degree_in_sign": 21.029637,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.088584,
+          "latitude": -0.084584,
+          "distance_au": 18.44233,
+          "speed": -0.038299,
+          "sign": "Gemini",
+          "degree_in_sign": 7.088584,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.861393,
+          "latitude": -1.428635,
+          "distance_au": 29.766627,
+          "speed": 0.003191,
+          "sign": "Aries",
+          "degree_in_sign": 3.861393,
+          "retrograde": false
+        },
+        "Pluto": {
+          "longitude": 305.659721,
+          "latitude": -4.733078,
+          "distance_au": 36.701617,
+          "speed": 0.026345,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.659721,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-22",
+      "time": "00:00:00Z",
+      "julian_day": 2461761.5,
+      "planets": {
+        "Sun": {
+          "longitude": 269.885313,
+          "latitude": -0.000135,
+          "distance_au": 0.983765,
+          "speed": 1.018436,
+          "sign": "Sagitarius",
+          "degree_in_sign": 29.885313,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 200.455563,
+          "latitude": -5.087084,
+          "distance_au": 0.002533,
+          "speed": 13.548493,
+          "sign": "Libra",
+          "degree_in_sign": 20.455563,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 275.560829,
+          "latitude": -1.917608,
+          "distance_au": 1.417207,
+          "speed": 1.593132,
+          "sign": "Capricorn",
+          "degree_in_sign": 5.560829,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 302.734187,
+          "latitude": -1.867891,
+          "distance_au": 1.319259,
+          "speed": 1.229965,
+          "sign": "Aquarius",
+          "degree_in_sign": 2.734187,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 290.114552,
+          "latitude": -1.093518,
+          "distance_au": 2.280671,
+          "speed": 0.776581,
+          "sign": "Capricorn",
+          "degree_in_sign": 20.114552,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 176.794942,
+          "latitude": 1.218243,
+          "distance_au": 5.278389,
+          "speed": 0.066109,
+          "sign": "Virgo",
+          "degree_in_sign": 26.794942,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.024759,
+          "latitude": -2.595086,
+          "distance_au": 8.903403,
+          "speed": -0.003951,
+          "sign": "Aries",
+          "degree_in_sign": 21.024759,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.050478,
+          "latitude": -0.084392,
+          "distance_au": 18.448767,
+          "speed": -0.037908,
+          "sign": "Gemini",
+          "degree_in_sign": 7.050478,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.86488,
+          "latitude": -1.427916,
+          "distance_au": 29.783934,
+          "speed": 0.003783,
+          "sign": "Aries",
+          "degree_in_sign": 3.86488,
+          "retrograde": false
+        },
+        "Pluto": {
+          "longitude": 305.686207,
+          "latitude": -4.733043,
+          "distance_au": 36.712535,
+          "speed": 0.026626,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.686207,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-23",
+      "time": "00:00:00Z",
+      "julian_day": 2461762.5,
+      "planets": {
+        "Sun": {
+          "longitude": 270.903863,
+          "latitude": -0.000141,
+          "distance_au": 0.983707,
+          "speed": 1.018658,
+          "sign": "Capricorn",
+          "degree_in_sign": 0.903863,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 213.889915,
+          "latitude": -5.206713,
+          "distance_au": 0.002557,
+          "speed": 13.320992,
+          "sign": "Scorpio",
+          "degree_in_sign": 3.889915,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 277.155417,
+          "latitude": -1.969173,
+          "distance_au": 1.410563,
+          "speed": 1.596046,
+          "sign": "Capricorn",
+          "degree_in_sign": 7.155417,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 303.96392,
+          "latitude": -1.871848,
+          "distance_au": 1.313834,
+          "speed": 1.229496,
+          "sign": "Aquarius",
+          "degree_in_sign": 3.96392,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 290.891471,
+          "latitude": -1.09542,
+          "distance_au": 2.282298,
+          "speed": 0.777252,
+          "sign": "Capricorn",
+          "degree_in_sign": 20.891471,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 176.859602,
+          "latitude": 1.222717,
+          "distance_au": 5.262423,
+          "speed": 0.063206,
+          "sign": "Virgo",
+          "degree_in_sign": 26.859602,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.02174,
+          "latitude": -2.590413,
+          "distance_au": 8.91893,
+          "speed": -0.002087,
+          "sign": "Aries",
+          "degree_in_sign": 21.02174,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 67.012774,
+          "latitude": -0.084199,
+          "distance_au": 18.455494,
+          "speed": -0.037496,
+          "sign": "Gemini",
+          "degree_in_sign": 7.012774,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.868962,
+          "latitude": -1.427196,
+          "distance_au": 29.801263,
+          "speed": 0.004379,
+          "sign": "Aries",
+          "degree_in_sign": 3.868962,
+          "retrograde": false
+        },
+        "Pluto": {
+          "longitude": 305.712973,
+          "latitude": -4.733038,
+          "distance_au": 36.723214,
+          "speed": 0.026904,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.712973,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-24",
+      "time": "00:00:00Z",
+      "julian_day": 2461763.5,
+      "planets": {
+        "Sun": {
+          "longitude": 271.922626,
+          "latitude": -0.000138,
+          "distance_au": 0.983652,
+          "speed": 1.01886,
+          "sign": "Capricorn",
+          "degree_in_sign": 1.922626,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 227.099299,
+          "latitude": -5.046515,
+          "distance_au": 0.002581,
+          "speed": 13.098423,
+          "sign": "Scorpio",
+          "degree_in_sign": 17.099299,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 278.752911,
+          "latitude": -2.015608,
+          "distance_au": 1.403279,
+          "speed": 1.598933,
+          "sign": "Capricorn",
+          "degree_in_sign": 8.752911,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 305.193175,
+          "latitude": -1.874424,
+          "distance_au": 1.308379,
+          "speed": 1.229008,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.193175,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 291.669054,
+          "latitude": -1.097204,
+          "distance_au": 2.283911,
+          "speed": 0.777909,
+          "sign": "Capricorn",
+          "degree_in_sign": 21.669054,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 176.921345,
+          "latitude": 1.227213,
+          "distance_au": 5.246473,
+          "speed": 0.060277,
+          "sign": "Virgo",
+          "degree_in_sign": 26.921345,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.020588,
+          "latitude": -2.585724,
+          "distance_au": 8.934561,
+          "speed": -0.000217,
+          "sign": "Aries",
+          "degree_in_sign": 21.020588,
+          "retrograde": true
+        },
+        "Uranus": {
+          "longitude": 66.975491,
+          "latitude": -0.084004,
+          "distance_au": 18.462509,
+          "speed": -0.037066,
+          "sign": "Gemini",
+          "degree_in_sign": 6.975491,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.87364,
+          "latitude": -1.426475,
+          "distance_au": 29.818609,
+          "speed": 0.004977,
+          "sign": "Aries",
+          "degree_in_sign": 3.87364,
+          "retrograde": false
+        },
+        "Pluto": {
+          "longitude": 305.740015,
+          "latitude": -4.733065,
+          "distance_au": 36.733651,
+          "speed": 0.027176,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.740015,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-25",
+      "time": "00:00:00Z",
+      "julian_day": 2461764.5,
+      "planets": {
+        "Sun": {
+          "longitude": 272.941577,
+          "latitude": -0.000126,
+          "distance_au": 0.983602,
+          "speed": 1.019035,
+          "sign": "Capricorn",
+          "degree_in_sign": 2.941577,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 240.088199,
+          "latitude": -4.627722,
+          "distance_au": 0.002604,
+          "speed": 12.879878,
+          "sign": "Sagitarius",
+          "degree_in_sign": 0.088199,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 280.353249,
+          "latitude": -2.056647,
+          "distance_au": 1.395341,
+          "speed": 1.601722,
+          "sign": "Capricorn",
+          "degree_in_sign": 10.353249,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 306.421929,
+          "latitude": -1.875607,
+          "distance_au": 1.302895,
+          "speed": 1.228494,
+          "sign": "Aquarius",
+          "degree_in_sign": 6.421929,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 292.447285,
+          "latitude": -1.09887,
+          "distance_au": 2.28551,
+          "speed": 0.778547,
+          "sign": "Capricorn",
+          "degree_in_sign": 22.447285,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 176.980146,
+          "latitude": 1.23173,
+          "distance_au": 5.230545,
+          "speed": 0.05732,
+          "sign": "Virgo",
+          "degree_in_sign": 26.980146,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.021307,
+          "latitude": -2.581021,
+          "distance_au": 8.950289,
+          "speed": 0.001654,
+          "sign": "Aries",
+          "degree_in_sign": 21.021307,
+          "retrograde": false
+        },
+        "Uranus": {
+          "longitude": 66.938647,
+          "latitude": -0.083807,
+          "distance_au": 18.46981,
+          "speed": -0.03662,
+          "sign": "Gemini",
+          "degree_in_sign": 6.938647,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.878916,
+          "latitude": -1.425755,
+          "distance_au": 29.835967,
+          "speed": 0.005572,
+          "sign": "Aries",
+          "degree_in_sign": 3.878916,
+          "retrograde": false
+        },
+        "Pluto": {
+          "longitude": 305.767325,
+          "latitude": -4.733123,
+          "distance_au": 36.743843,
+          "speed": 0.02744,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.767325,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-26",
+      "time": "00:00:00Z",
+      "julian_day": 2461765.5,
+      "planets": {
+        "Sun": {
+          "longitude": 273.96069,
+          "latitude": -0.000105,
+          "distance_au": 0.983556,
+          "speed": 1.019182,
+          "sign": "Capricorn",
+          "degree_in_sign": 3.96069,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 252.86049,
+          "latitude": -3.983015,
+          "distance_au": 0.002626,
+          "speed": 12.665363,
+          "sign": "Sagitarius",
+          "degree_in_sign": 12.86049,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 281.956295,
+          "latitude": -2.092007,
+          "distance_au": 1.386734,
+          "speed": 1.604334,
+          "sign": "Capricorn",
+          "degree_in_sign": 11.956295,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 307.650155,
+          "latitude": -1.875385,
+          "distance_au": 1.297382,
+          "speed": 1.22795,
+          "sign": "Aquarius",
+          "degree_in_sign": 7.650155,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 293.226143,
+          "latitude": -1.100418,
+          "distance_au": 2.287093,
+          "speed": 0.779164,
+          "sign": "Capricorn",
+          "degree_in_sign": 23.226143,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 177.035977,
+          "latitude": 1.236269,
+          "distance_au": 5.214643,
+          "speed": 0.054335,
+          "sign": "Virgo",
+          "degree_in_sign": 27.035977,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.023897,
+          "latitude": -2.576305,
+          "distance_au": 8.966111,
+          "speed": 0.003524,
+          "sign": "Aries",
+          "degree_in_sign": 21.023897,
+          "retrograde": false
+        },
+        "Uranus": {
+          "longitude": 66.902256,
+          "latitude": -0.083608,
+          "distance_au": 18.477394,
+          "speed": -0.03616,
+          "sign": "Gemini",
+          "degree_in_sign": 6.902256,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.884784,
+          "latitude": -1.425035,
+          "distance_au": 29.853331,
+          "speed": 0.006163,
+          "sign": "Aries",
+          "degree_in_sign": 3.884784,
+          "retrograde": false
+        },
+        "Pluto": {
+          "longitude": 305.794892,
+          "latitude": -4.733213,
+          "distance_au": 36.753786,
+          "speed": 0.027692,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.794892,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-27",
+      "time": "00:00:00Z",
+      "julian_day": 2461766.5,
+      "planets": {
+        "Sun": {
+          "longitude": 274.979933,
+          "latitude": -7.9e-05,
+          "distance_au": 0.983513,
+          "speed": 1.019297,
+          "sign": "Capricorn",
+          "degree_in_sign": 4.979933,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 265.421148,
+          "latitude": -3.153795,
+          "distance_au": 0.002647,
+          "speed": 12.457246,
+          "sign": "Sagitarius",
+          "degree_in_sign": 25.421148,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 283.561827,
+          "latitude": -2.121385,
+          "distance_au": 1.377441,
+          "speed": 1.606678,
+          "sign": "Capricorn",
+          "degree_in_sign": 13.561827,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 308.87782,
+          "latitude": -1.873747,
+          "distance_au": 1.291839,
+          "speed": 1.227373,
+          "sign": "Aquarius",
+          "degree_in_sign": 8.87782,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 294.005606,
+          "latitude": -1.101849,
+          "distance_au": 2.288662,
+          "speed": 0.779756,
+          "sign": "Capricorn",
+          "degree_in_sign": 24.005606,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 177.088808,
+          "latitude": 1.240826,
+          "distance_au": 5.198773,
+          "speed": 0.051322,
+          "sign": "Virgo",
+          "degree_in_sign": 27.088808,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.028354,
+          "latitude": -2.57158,
+          "distance_au": 8.982019,
+          "speed": 0.00539,
+          "sign": "Aries",
+          "degree_in_sign": 21.028354,
+          "retrograde": false
+        },
+        "Uranus": {
+          "longitude": 66.86633,
+          "latitude": -0.083408,
+          "distance_au": 18.485258,
+          "speed": -0.03569,
+          "sign": "Gemini",
+          "degree_in_sign": 6.86633,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.89124,
+          "latitude": -1.424315,
+          "distance_au": 29.870695,
+          "speed": 0.006748,
+          "sign": "Aries",
+          "degree_in_sign": 3.89124,
+          "retrograde": false
+        },
+        "Pluto": {
+          "longitude": 305.822706,
+          "latitude": -4.733334,
+          "distance_au": 36.763477,
+          "speed": 0.027932,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.822706,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-28",
+      "time": "00:00:00Z",
+      "julian_day": 2461767.5,
+      "planets": {
+        "Sun": {
+          "longitude": 275.999276,
+          "latitude": -4.8e-05,
+          "distance_au": 0.983474,
+          "speed": 1.019381,
+          "sign": "Capricorn",
+          "degree_in_sign": 5.999276,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 277.778979,
+          "latitude": -2.187077,
+          "distance_au": 0.002666,
+          "speed": 12.260844,
+          "sign": "Capricorn",
+          "degree_in_sign": 7.778979,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 285.169523,
+          "latitude": -2.144464,
+          "distance_au": 1.367447,
+          "speed": 1.608645,
+          "sign": "Capricorn",
+          "degree_in_sign": 15.169523,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 310.104889,
+          "latitude": -1.870682,
+          "distance_au": 1.286266,
+          "speed": 1.226759,
+          "sign": "Aquarius",
+          "degree_in_sign": 10.104889,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 294.785648,
+          "latitude": -1.103164,
+          "distance_au": 2.290217,
+          "speed": 0.780323,
+          "sign": "Capricorn",
+          "degree_in_sign": 24.785648,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 177.138613,
+          "latitude": 1.245402,
+          "distance_au": 5.182939,
+          "speed": 0.048283,
+          "sign": "Virgo",
+          "degree_in_sign": 27.138613,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.034676,
+          "latitude": -2.566847,
+          "distance_au": 8.99801,
+          "speed": 0.007251,
+          "sign": "Aries",
+          "degree_in_sign": 21.034676,
+          "retrograde": false
+        },
+        "Uranus": {
+          "longitude": 66.830881,
+          "latitude": -0.083207,
+          "distance_au": 18.493401,
+          "speed": -0.035207,
+          "sign": "Gemini",
+          "degree_in_sign": 6.830881,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.898278,
+          "latitude": -1.423596,
+          "distance_au": 29.888053,
+          "speed": 0.007326,
+          "sign": "Aries",
+          "degree_in_sign": 3.898278,
+          "retrograde": false
+        },
+        "Pluto": {
+          "longitude": 305.850752,
+          "latitude": -4.733489,
+          "distance_au": 36.772913,
+          "speed": 0.028159,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.850752,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-29",
+      "time": "00:00:00Z",
+      "julian_day": 2461768.5,
+      "planets": {
+        "Sun": {
+          "longitude": 277.018688,
+          "latitude": -1.3e-05,
+          "distance_au": 0.983439,
+          "speed": 1.019434,
+          "sign": "Capricorn",
+          "degree_in_sign": 7.018688,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 289.949548,
+          "latitude": -1.132318,
+          "distance_au": 0.002683,
+          "speed": 12.084296,
+          "sign": "Capricorn",
+          "degree_in_sign": 19.949548,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 286.778948,
+          "latitude": -2.160903,
+          "distance_au": 1.356731,
+          "speed": 1.610113,
+          "sign": "Capricorn",
+          "degree_in_sign": 16.778948,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 311.331327,
+          "latitude": -1.866183,
+          "distance_au": 1.280663,
+          "speed": 1.22611,
+          "sign": "Aquarius",
+          "degree_in_sign": 11.331327,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 295.566246,
+          "latitude": -1.104362,
+          "distance_au": 2.291757,
+          "speed": 0.780866,
+          "sign": "Capricorn",
+          "degree_in_sign": 25.566246,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 177.185366,
+          "latitude": 1.249994,
+          "distance_au": 5.167146,
+          "speed": 0.045221,
+          "sign": "Virgo",
+          "degree_in_sign": 27.185366,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.042855,
+          "latitude": -2.562107,
+          "distance_au": 9.014077,
+          "speed": 0.009107,
+          "sign": "Aries",
+          "degree_in_sign": 21.042855,
+          "retrograde": false
+        },
+        "Uranus": {
+          "longitude": 66.79592,
+          "latitude": -0.083004,
+          "distance_au": 18.501818,
+          "speed": -0.034713,
+          "sign": "Gemini",
+          "degree_in_sign": 6.79592,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.90589,
+          "latitude": -1.422879,
+          "distance_au": 29.9054,
+          "speed": 0.007898,
+          "sign": "Aries",
+          "degree_in_sign": 3.90589,
+          "retrograde": false
+        },
+        "Pluto": {
+          "longitude": 305.87902,
+          "latitude": -4.733676,
+          "distance_au": 36.782093,
+          "speed": 0.028374,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.87902,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-30",
+      "time": "00:00:00Z",
+      "julian_day": 2461769.5,
+      "planets": {
+        "Sun": {
+          "longitude": 278.03814,
+          "latitude": 2.2e-05,
+          "distance_au": 0.983407,
+          "speed": 1.019461,
+          "sign": "Capricorn",
+          "degree_in_sign": 8.03814,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 301.95772,
+          "latitude": -0.038631,
+          "distance_au": 0.002698,
+          "speed": 11.937915,
+          "sign": "Aquarius",
+          "degree_in_sign": 1.95772,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 288.389534,
+          "latitude": -2.17034,
+          "distance_au": 1.345276,
+          "speed": 1.610939,
+          "sign": "Capricorn",
+          "degree_in_sign": 18.389534,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 312.557097,
+          "latitude": -1.86024,
+          "distance_au": 1.27503,
+          "speed": 1.225424,
+          "sign": "Aquarius",
+          "degree_in_sign": 12.557097,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 296.347376,
+          "latitude": -1.105445,
+          "distance_au": 2.293283,
+          "speed": 0.781387,
+          "sign": "Capricorn",
+          "degree_in_sign": 26.347376,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 177.229047,
+          "latitude": 1.2546,
+          "distance_au": 5.151399,
+          "speed": 0.042138,
+          "sign": "Virgo",
+          "degree_in_sign": 27.229047,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.052888,
+          "latitude": -2.557363,
+          "distance_au": 9.030215,
+          "speed": 0.010959,
+          "sign": "Aries",
+          "degree_in_sign": 21.052888,
+          "retrograde": false
+        },
+        "Uranus": {
+          "longitude": 66.761459,
+          "latitude": -0.082801,
+          "distance_au": 18.510506,
+          "speed": -0.034205,
+          "sign": "Gemini",
+          "degree_in_sign": 6.761459,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.914072,
+          "latitude": -1.422163,
+          "distance_au": 29.922731,
+          "speed": 0.008466,
+          "sign": "Aries",
+          "degree_in_sign": 3.914072,
+          "retrograde": false
+        },
+        "Pluto": {
+          "longitude": 305.907496,
+          "latitude": -4.733896,
+          "distance_au": 36.791012,
+          "speed": 0.028579,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.907496,
+          "retrograde": false
+        }
+      }
+    },
+    {
+      "date": "2027-12-31",
+      "time": "00:00:00Z",
+      "julian_day": 2461770.5,
+      "planets": {
+        "Sun": {
+          "longitude": 279.057606,
+          "latitude": 5.8e-05,
+          "distance_au": 0.98338,
+          "speed": 1.019463,
+          "sign": "Capricorn",
+          "degree_in_sign": 9.057606,
+          "retrograde": false
+        },
+        "Moon": {
+          "longitude": 313.839349,
+          "latitude": 1.047307,
+          "distance_au": 0.002707,
+          "speed": 11.833179,
+          "sign": "Aquarius",
+          "degree_in_sign": 13.839349,
+          "retrograde": false
+        },
+        "Mercury": {
+          "longitude": 290.000554,
+          "latitude": -2.172392,
+          "distance_au": 1.333062,
+          "speed": 1.610953,
+          "sign": "Capricorn",
+          "degree_in_sign": 20.000554,
+          "retrograde": false
+        },
+        "Venus": {
+          "longitude": 313.782165,
+          "latitude": -1.852845,
+          "distance_au": 1.269367,
+          "speed": 1.224704,
+          "sign": "Aquarius",
+          "degree_in_sign": 13.782165,
+          "retrograde": false
+        },
+        "Mars": {
+          "longitude": 297.129016,
+          "latitude": -1.106412,
+          "distance_au": 2.294795,
+          "speed": 0.781888,
+          "sign": "Capricorn",
+          "degree_in_sign": 27.129016,
+          "retrograde": false
+        },
+        "Jupiter": {
+          "longitude": 177.269635,
+          "latitude": 1.25922,
+          "distance_au": 5.135703,
+          "speed": 0.039037,
+          "sign": "Virgo",
+          "degree_in_sign": 27.269635,
+          "retrograde": false
+        },
+        "Saturn": {
+          "longitude": 21.06477,
+          "latitude": -2.552616,
+          "distance_au": 9.046418,
+          "speed": 0.012806,
+          "sign": "Aries",
+          "degree_in_sign": 21.06477,
+          "retrograde": false
+        },
+        "Uranus": {
+          "longitude": 66.727514,
+          "latitude": -0.082596,
+          "distance_au": 18.519462,
+          "speed": -0.033682,
+          "sign": "Gemini",
+          "degree_in_sign": 6.727514,
+          "retrograde": true
+        },
+        "Neptune": {
+          "longitude": 3.92282,
+          "latitude": -1.421448,
+          "distance_au": 29.940039,
+          "speed": 0.00903,
+          "sign": "Aries",
+          "degree_in_sign": 3.92282,
+          "retrograde": false
+        },
+        "Pluto": {
+          "longitude": 305.936174,
+          "latitude": -4.734151,
+          "distance_au": 36.79967,
+          "speed": 0.028775,
+          "sign": "Aquarius",
+          "degree_in_sign": 5.936174,
+          "retrograde": false
+        }
+      }
+    }
+  ]
+}

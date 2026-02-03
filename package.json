@@ -10,7 +10,13 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "generate:ephemeris": "cd scripts && python3 generate_ephemeris.py --all",
+    "generate:positions": "cd scripts && python3 generate_ephemeris.py --type positions",
+    "generate:moon": "cd scripts && python3 generate_ephemeris.py --type moon-phases",
+    "generate:transits": "cd scripts && python3 generate_ephemeris.py --type major-transits",
+    "generate:retrogrades": "cd scripts && python3 generate_ephemeris.py --type retrogrades",
+    "clean:data": "rm -rf data/daily-positions/*.json data/moon-phases/*.json data/major-transits/*.json data/retrogrades/*.json"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
