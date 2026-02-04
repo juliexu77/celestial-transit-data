@@ -169,12 +169,28 @@ def main():
             print(f"Days until: {days_until}")
             print(f"Moon will be in: {next_phase['moon_sign']} {next_phase['moon_degree']:.2f}°")
 
-    # Show current moon position
+    # Show current moon position and phase
     moon = positions['planets']['Moon']
+    current_phase = positions.get('moon_phase', 'unknown')
+
+    # Get phase emoji
+    phase_emojis = {
+        'new': '🌑 New Moon',
+        'waxing_crescent': '🌒 Waxing Crescent',
+        'first_quarter': '🌓 First Quarter',
+        'waxing_gibbous': '🌔 Waxing Gibbous',
+        'full': '🌕 Full Moon',
+        'waning_gibbous': '🌖 Waning Gibbous',
+        'last_quarter': '🌗 Last Quarter',
+        'waning_crescent': '🌘 Waning Crescent'
+    }
+    phase_display = phase_emojis.get(current_phase, current_phase)
+
     print("\n" + "=" * 70)
     print("CURRENT MOON")
     print("=" * 70)
-    print(f"\nMoon is currently in: {moon['sign']} {moon['degree_in_sign']:.2f}°")
+    print(f"\nCurrent Phase: {phase_display}")
+    print(f"Moon is in: {moon['sign']} {moon['degree_in_sign']:.2f}°")
     print(f"Moon phase cycle: ~29.5 days")
 
     # Calculate approximate moon phase percentage

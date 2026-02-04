@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "year": 1946,
+    "generated_at": "2026-02-04T00:14:10Z",
+    "planets_tracked": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune",
+      "Pluto"
+    ],
+    "ephemeris_version": "Swiss Ephemeris 2.10.03"
+  },
+  "retrogrades": [
+    {
+      "planet": "Neptune",
+      "station_retrograde": {
+        "date": "1946-01-10T03:00:00Z",
+        "julian_day": 2431830.625,
+        "longitude": 188.620298,
+        "sign": "Libra",
+        "degree": 8.620298
+      },
+      "station_direct": {
+        "date": "1946-06-17T12:00:00Z",
+        "julian_day": 2431989.0,
+        "longitude": 185.839915,
+        "sign": "Libra",
+        "degree": 5.839915
+      },
+      "duration_days": 158.375
+    },
+    {
+      "planet": "Jupiter",
+      "station_retrograde": {
+        "date": "1946-02-11T09:00:00Z",
+        "julian_day": 2431862.875,
+        "longitude": 207.366484,
+        "sign": "Libra",
+        "degree": 27.366484
+      },
+      "station_direct": {
+        "date": "1946-06-14T18:00:00Z",
+        "julian_day": 2431986.25,
+        "longitude": 197.452032,
+        "sign": "Libra",
+        "degree": 17.452032
+      },
+      "duration_days": 123.375
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1946-03-16T18:54:50Z",
+        "julian_day": 2431896.288086,
+        "longitude": 10.224501,
+        "sign": "Aries",
+        "degree": 10.224501
+      },
+      "station_direct": {
+        "date": "1946-04-09T00:36:33Z",
+        "julian_day": 2431919.525391,
+        "longitude": 357.617136,
+        "sign": "Pisces",
+        "degree": 27.617136
+      },
+      "duration_days": 23.237305,
+      "pre_retrograde_shadow_start": "1946-03-01T18:54:50Z",
+      "post_retrograde_shadow_end": "1946-04-24T00:36:33Z"
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1946-07-19T18:56:15Z",
+        "julian_day": 2432021.289062,
+        "longitude": 136.35622,
+        "sign": "Leo",
+        "degree": 16.35622
+      },
+      "station_direct": {
+        "date": "1946-08-12T21:02:48Z",
+        "julian_day": 2432045.376953,
+        "longitude": 124.878446,
+        "sign": "Leo",
+        "degree": 4.878446
+      },
+      "duration_days": 24.087891,
+      "pre_retrograde_shadow_start": "1946-07-04T18:56:14Z",
+      "post_retrograde_shadow_end": "1946-08-27T21:02:48Z"
+    },
+    {
+      "planet": "Venus",
+      "station_retrograde": {
+        "date": "1946-10-28T04:52:30Z",
+        "julian_day": 2432121.703125,
+        "longitude": 242.496987,
+        "sign": "Sagitarius",
+        "degree": 2.496987
+      },
+      "station_direct": {
+        "date": "1946-12-08T09:33:45Z",
+        "julian_day": 2432162.898438,
+        "longitude": 227.115578,
+        "sign": "Scorpio",
+        "degree": 17.115578
+      },
+      "duration_days": 41.195313,
+      "pre_retrograde_shadow_start": "1946-10-08T04:52:30Z",
+      "post_retrograde_shadow_end": "1946-12-28T09:33:45Z"
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1946-11-11T04:44:03Z",
+        "julian_day": 2432135.697266,
+        "longitude": 247.327329,
+        "sign": "Sagitarius",
+        "degree": 7.327329
+      },
+      "station_direct": {
+        "date": "1946-12-01T02:31:52Z",
+        "julian_day": 2432155.605469,
+        "longitude": 231.155766,
+        "sign": "Scorpio",
+        "degree": 21.155766
+      },
+      "duration_days": 19.908203,
+      "pre_retrograde_shadow_start": "1946-10-27T04:44:03Z",
+      "post_retrograde_shadow_end": "1946-12-16T02:31:52Z"
+    }
+  ]
+}

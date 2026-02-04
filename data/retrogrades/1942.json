@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "year": 1942,
+    "generated_at": "2026-02-04T00:14:02Z",
+    "planets_tracked": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune",
+      "Pluto"
+    ],
+    "ephemeris_version": "Swiss Ephemeris 2.10.03"
+  },
+  "retrogrades": [
+    {
+      "planet": "Neptune",
+      "station_retrograde": {
+        "date": "1942-01-01T12:00:00Z",
+        "julian_day": 2430361.0,
+        "longitude": 179.879088,
+        "sign": "Virgo",
+        "degree": 29.879088
+      },
+      "station_direct": {
+        "date": "1942-06-08T12:00:00Z",
+        "julian_day": 2430519.0,
+        "longitude": 177.091739,
+        "sign": "Virgo",
+        "degree": 27.091739
+      },
+      "duration_days": 158.0
+    },
+    {
+      "planet": "Venus",
+      "station_retrograde": {
+        "date": "1942-01-13T00:39:22Z",
+        "julian_day": 2430372.527344,
+        "longitude": 321.187228,
+        "sign": "Aquarius",
+        "degree": 21.187228
+      },
+      "station_direct": {
+        "date": "1942-02-23T06:00:00Z",
+        "julian_day": 2430413.75,
+        "longitude": 305.519133,
+        "sign": "Aquarius",
+        "degree": 5.519133
+      },
+      "duration_days": 41.222656,
+      "pre_retrograde_shadow_start": "1941-12-24T00:39:22Z",
+      "post_retrograde_shadow_end": "1942-03-15T06:00:00Z"
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1942-02-01T01:15:56Z",
+        "julian_day": 2430391.552734,
+        "longitude": 327.014737,
+        "sign": "Aquarius",
+        "degree": 27.014737
+      },
+      "station_direct": {
+        "date": "1942-02-22T12:08:26Z",
+        "julian_day": 2430413.005859,
+        "longitude": 311.615205,
+        "sign": "Aquarius",
+        "degree": 11.615205
+      },
+      "duration_days": 21.453125,
+      "pre_retrograde_shadow_start": "1942-01-17T01:15:56Z",
+      "post_retrograde_shadow_end": "1942-03-09T12:08:26Z"
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1942-05-31T16:01:52Z",
+        "julian_day": 2430511.167969,
+        "longitude": 85.640471,
+        "sign": "Gemini",
+        "degree": 25.640471
+      },
+      "station_direct": {
+        "date": "1942-06-24T15:53:26Z",
+        "julian_day": 2430535.162109,
+        "longitude": 77.01767,
+        "sign": "Gemini",
+        "degree": 17.01767
+      },
+      "duration_days": 23.99414,
+      "pre_retrograde_shadow_start": "1942-05-16T16:01:52Z",
+      "post_retrograde_shadow_end": "1942-07-09T15:53:26Z"
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1942-09-28T16:13:07Z",
+        "julian_day": 2430631.175781,
+        "longitude": 206.000863,
+        "sign": "Libra",
+        "degree": 26.000863
+      },
+      "station_direct": {
+        "date": "1942-10-20T00:21:05Z",
+        "julian_day": 2430652.514648,
+        "longitude": 190.597938,
+        "sign": "Libra",
+        "degree": 10.597938
+      },
+      "duration_days": 21.338867,
+      "pre_retrograde_shadow_start": "1942-09-13T16:13:07Z",
+      "post_retrograde_shadow_end": "1942-11-04T00:21:05Z"
+    }
+  ]
+}

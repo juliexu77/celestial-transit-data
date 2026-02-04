@@ -8,6 +8,7 @@ from typing import Dict, List, Any
 from lib.config import PLANETS, SWEPH_FLAGS
 from utils.formatters import get_zodiac_sign, format_datetime_iso, format_date_only, round_decimal
 from utils.julian_date import datetime_to_julian_day
+from lib.moon_phases import get_sun_moon_angle, get_moon_phase_name
 
 
 def calculate_planet_position(planet_id: int, jd: float) -> Dict[str, Any]:
@@ -96,10 +97,15 @@ def generate_month_positions(year: int, month: int) -> Dict[str, Any]:
         jd = datetime_to_julian_day(date)
         planet_positions = calculate_daily_positions(date)
 
+        # Calculate moon phase
+        sun_moon_angle = get_sun_moon_angle(jd)
+        moon_phase = get_moon_phase_name(sun_moon_angle)
+
         positions.append({
             'date': format_date_only(date),
             'time': '00:00:00Z',
             'julian_day': round_decimal(jd),
+            'moon_phase': moon_phase,
             'planets': planet_positions
         })
 

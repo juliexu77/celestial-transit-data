@@ -46,7 +46,7 @@ cd scripts
 pip install -r requirements.txt
 ```
 
-Generate all ephemeris data for 2025-2026:
+Generate all ephemeris data (currently 1920-2029):
 ```bash
 npm run generate:ephemeris
 ```
@@ -63,21 +63,22 @@ npm run generate:retrogrades   # Retrograde periods
 
 ```
 data/
-├── daily-positions/    # 24 files (YYYY-MM.json)
-│   ├── 2025-01.json   # ~50KB each
-│   └── ...
-├── moon-phases/        # 2 files (YYYY.json)
-│   ├── 2025.json      # ~20KB each
-│   └── 2026.json
-├── major-transits/     # 2 files (YYYY.json)
-│   ├── 2025.json      # ~30KB each
-│   └── 2026.json
-└── retrogrades/        # 2 files (YYYY.json)
-    ├── 2025.json      # ~10KB each
-    └── 2026.json
+├── daily-positions/    # 1,320 files (YYYY-MM.json)
+│   ├── 1920-01.json   # ~80KB each
+│   ├── 1920-02.json
+│   └── ... through 2029-12.json
+├── moon-phases/        # 110 files (YYYY.json)
+│   ├── 1920.json      # ~2KB each
+│   └── ... through 2029.json
+├── major-transits/     # 110 files (YYYY.json)
+│   ├── 1920.json      # ~5KB each
+│   └── ... through 2029.json
+└── retrogrades/        # 110 files (YYYY.json)
+    ├── 1920.json      # ~500B each
+    └── ... through 2029.json
 ```
 
-Total size: ~5MB for 2 years of comprehensive data
+**Total size: ~115MB for 110 years (1920-2029) of comprehensive data**
 
 ## Documentation
 

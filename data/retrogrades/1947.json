@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "year": 1947,
+    "generated_at": "2026-02-04T00:14:12Z",
+    "planets_tracked": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune",
+      "Pluto"
+    ],
+    "ephemeris_version": "Swiss Ephemeris 2.10.03"
+  },
+  "retrogrades": [
+    {
+      "planet": "Neptune",
+      "station_retrograde": {
+        "date": "1947-01-12T12:00:00Z",
+        "julian_day": 2432198.0,
+        "longitude": 190.806893,
+        "sign": "Libra",
+        "degree": 10.806893
+      },
+      "station_direct": {
+        "date": "1947-06-19T18:00:00Z",
+        "julian_day": 2432356.25,
+        "longitude": 188.026842,
+        "sign": "Libra",
+        "degree": 8.026842
+      },
+      "duration_days": 158.25
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1947-02-27T17:34:41Z",
+        "julian_day": 2432244.232422,
+        "longitude": 353.148756,
+        "sign": "Pisces",
+        "degree": 23.148756
+      },
+      "station_direct": {
+        "date": "1947-03-22T08:06:33Z",
+        "julian_day": 2432266.837891,
+        "longitude": 339.19962,
+        "sign": "Pisces",
+        "degree": 9.19962
+      },
+      "duration_days": 22.605469,
+      "pre_retrograde_shadow_start": "1947-02-12T17:34:41Z",
+      "post_retrograde_shadow_end": "1947-04-06T08:06:33Z"
+    },
+    {
+      "planet": "Jupiter",
+      "station_retrograde": {
+        "date": "1947-03-14T12:00:00Z",
+        "julian_day": 2432259.0,
+        "longitude": 237.563091,
+        "sign": "Scorpio",
+        "degree": 27.563091
+      },
+      "station_direct": {
+        "date": "1947-07-15T22:30:00Z",
+        "julian_day": 2432382.4375,
+        "longitude": 227.692268,
+        "sign": "Scorpio",
+        "degree": 17.692268
+      },
+      "duration_days": 123.4375
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1947-07-01T09:11:15Z",
+        "julian_day": 2432367.882812,
+        "longitude": 117.126585,
+        "sign": "Cancer",
+        "degree": 27.126585
+      },
+      "station_direct": {
+        "date": "1947-07-25T14:37:30Z",
+        "julian_day": 2432392.109375,
+        "longitude": 107.044246,
+        "sign": "Cancer",
+        "degree": 17.044246
+      },
+      "duration_days": 24.226563,
+      "pre_retrograde_shadow_start": "1947-06-16T09:11:14Z",
+      "post_retrograde_shadow_end": "1947-08-09T14:37:30Z"
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1947-10-25T17:24:50Z",
+        "julian_day": 2432484.225586,
+        "longitude": 231.447901,
+        "sign": "Scorpio",
+        "degree": 21.447901
+      },
+      "station_direct": {
+        "date": "1947-11-15T00:40:46Z",
+        "julian_day": 2432504.52832,
+        "longitude": 215.473687,
+        "sign": "Scorpio",
+        "degree": 5.473687
+      },
+      "duration_days": 20.302734,
+      "pre_retrograde_shadow_start": "1947-10-10T17:24:50Z",
+      "post_retrograde_shadow_end": "1947-11-30T00:40:46Z"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "year": 1931,
+    "generated_at": "2026-02-04T00:13:42Z",
+    "planets_tracked": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune",
+      "Pluto"
+    ],
+    "ephemeris_version": "Swiss Ephemeris 2.10.03"
+  },
+  "retrogrades": [
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1931-04-19T19:52:30Z",
+        "julian_day": 2426451.328125,
+        "longitude": 43.409612,
+        "sign": "Taurus",
+        "degree": 13.409612
+      },
+      "station_direct": {
+        "date": "1931-05-13T14:31:52Z",
+        "julian_day": 2426475.105469,
+        "longitude": 33.579914,
+        "sign": "Taurus",
+        "degree": 3.579914
+      },
+      "duration_days": 23.777344,
+      "pre_retrograde_shadow_start": "1931-04-04T19:52:30Z",
+      "post_retrograde_shadow_end": "1931-05-28T14:31:52Z"
+    },
+    {
+      "planet": "Saturn",
+      "station_retrograde": {
+        "date": "1931-05-03T15:00:00Z",
+        "julian_day": 2426465.125,
+        "longitude": 293.278337,
+        "sign": "Capricorn",
+        "degree": 23.278337
+      },
+      "station_direct": {
+        "date": "1931-09-21T21:00:00Z",
+        "julian_day": 2426606.375,
+        "longitude": 286.646743,
+        "sign": "Capricorn",
+        "degree": 16.646743
+      },
+      "duration_days": 141.25
+    },
+    {
+      "planet": "Uranus",
+      "station_retrograde": {
+        "date": "1931-07-26T03:00:00Z",
+        "julian_day": 2426548.625,
+        "longitude": 19.37931,
+        "sign": "Aries",
+        "degree": 19.37931
+      },
+      "station_direct": {
+        "date": "1931-12-25T18:00:00Z",
+        "julian_day": 2426701.25,
+        "longitude": 15.43872,
+        "sign": "Aries",
+        "degree": 15.43872
+      },
+      "duration_days": 152.625
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1931-08-22T08:31:52Z",
+        "julian_day": 2426575.855469,
+        "longitude": 169.690461,
+        "sign": "Virgo",
+        "degree": 19.690461
+      },
+      "station_direct": {
+        "date": "1931-09-14T09:43:35Z",
+        "julian_day": 2426598.905273,
+        "longitude": 155.88377,
+        "sign": "Virgo",
+        "degree": 5.88377
+      },
+      "duration_days": 23.049804,
+      "pre_retrograde_shadow_start": "1931-08-07T08:31:52Z",
+      "post_retrograde_shadow_end": "1931-09-29T09:43:35Z"
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1931-12-11T21:11:15Z",
+        "julian_day": 2426687.382812,
+        "longitude": 276.402868,
+        "sign": "Capricorn",
+        "degree": 6.402868
+      },
+      "station_direct": {
+        "date": "1931-12-31T16:55:18Z",
+        "julian_day": 2426707.205078,
+        "longitude": 260.095,
+        "sign": "Sagitarius",
+        "degree": 20.095
+      },
+      "duration_days": 19.822266,
+      "pre_retrograde_shadow_start": "1931-11-26T21:11:14Z",
+      "post_retrograde_shadow_end": "1932-01-15T16:55:18Z"
+    }
+  ]
+}

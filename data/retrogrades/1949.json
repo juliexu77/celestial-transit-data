@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "year": 1949,
+    "generated_at": "2026-02-04T00:14:15Z",
+    "planets_tracked": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune",
+      "Pluto"
+    ],
+    "ephemeris_version": "Swiss Ephemeris 2.10.03"
+  },
+  "retrogrades": [
+    {
+      "planet": "Neptune",
+      "station_retrograde": {
+        "date": "1949-01-16T12:00:00Z",
+        "julian_day": 2432933.0,
+        "longitude": 195.175818,
+        "sign": "Libra",
+        "degree": 15.175818
+      },
+      "station_direct": {
+        "date": "1949-06-23T18:00:00Z",
+        "julian_day": 2433091.25,
+        "longitude": 192.395425,
+        "sign": "Libra",
+        "degree": 12.395425
+      },
+      "duration_days": 158.25
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1949-01-24T20:17:48Z",
+        "julian_day": 2432941.345703,
+        "longitude": 320.211682,
+        "sign": "Aquarius",
+        "degree": 20.211682
+      },
+      "station_direct": {
+        "date": "1949-02-14T23:45:56Z",
+        "julian_day": 2432962.490234,
+        "longitude": 304.556918,
+        "sign": "Aquarius",
+        "degree": 4.556918
+      },
+      "duration_days": 21.144531,
+      "pre_retrograde_shadow_start": "1949-01-09T20:17:48Z",
+      "post_retrograde_shadow_end": "1949-03-01T23:45:56Z"
+    },
+    {
+      "planet": "Jupiter",
+      "station_retrograde": {
+        "date": "1949-05-20T15:00:00Z",
+        "julian_day": 2433057.125,
+        "longitude": 302.1725,
+        "sign": "Aquarius",
+        "degree": 2.1725
+      },
+      "station_direct": {
+        "date": "1949-09-18T19:30:00Z",
+        "julian_day": 2433178.3125,
+        "longitude": 292.336595,
+        "sign": "Capricorn",
+        "degree": 22.336595
+      },
+      "duration_days": 121.1875
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1949-05-23T02:15:00Z",
+        "julian_day": 2433059.59375,
+        "longitude": 77.216219,
+        "sign": "Gemini",
+        "degree": 17.216219
+      },
+      "station_direct": {
+        "date": "1949-06-16T00:08:26Z",
+        "julian_day": 2433083.505859,
+        "longitude": 68.665854,
+        "sign": "Gemini",
+        "degree": 8.665854
+      },
+      "duration_days": 23.912109,
+      "pre_retrograde_shadow_start": "1949-05-08T02:15:00Z",
+      "post_retrograde_shadow_end": "1949-07-01T00:08:26Z"
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1949-09-21T03:49:13Z",
+        "julian_day": 2433180.65918,
+        "longitude": 199.120268,
+        "sign": "Libra",
+        "degree": 19.120268
+      },
+      "station_direct": {
+        "date": "1949-10-12T19:44:03Z",
+        "julian_day": 2433202.322266,
+        "longitude": 183.943047,
+        "sign": "Libra",
+        "degree": 3.943047
+      },
+      "duration_days": 21.663086,
+      "pre_retrograde_shadow_start": "1949-09-06T03:49:13Z",
+      "post_retrograde_shadow_end": "1949-10-27T19:44:03Z"
+    }
+  ]
+}

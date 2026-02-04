@@ -31,6 +31,70 @@ def get_sun_moon_angle(jd: float) -> float:
     return angle
 
 
+def get_moon_phase_name(angle: float) -> str:
+    """
+    Determine the moon phase name based on Sun-Moon angle.
+
+    The lunar cycle is divided into 8 phases of 45 degrees each:
+    - New Moon: 0° (337.5° - 22.5°)
+    - Waxing Crescent: 45° (22.5° - 67.5°)
+    - First Quarter: 90° (67.5° - 112.5°)
+    - Waxing Gibbous: 135° (112.5° - 157.5°)
+    - Full Moon: 180° (157.5° - 202.5°)
+    - Waning Gibbous: 225° (202.5° - 247.5°)
+    - Last Quarter: 270° (247.5° - 292.5°)
+    - Waning Crescent: 315° (292.5° - 337.5°)
+
+    Args:
+        angle: Sun-Moon angle in degrees (0-360)
+
+    Returns:
+        Phase name as string
+    """
+    # Normalize angle to 0-360
+    angle = angle % 360
+
+    if angle < 22.5 or angle >= 337.5:
+        return "new"
+    elif 22.5 <= angle < 67.5:
+        return "waxing_crescent"
+    elif 67.5 <= angle < 112.5:
+        return "first_quarter"
+    elif 112.5 <= angle < 157.5:
+        return "waxing_gibbous"
+    elif 157.5 <= angle < 202.5:
+        return "full"
+    elif 202.5 <= angle < 247.5:
+        return "waning_gibbous"
+    elif 247.5 <= angle < 292.5:
+        return "last_quarter"
+    else:  # 292.5 <= angle < 337.5
+        return "waning_crescent"
+
+
+def get_moon_phase_emoji(phase_name: str) -> str:
+    """
+    Get emoji for a moon phase name.
+
+    Args:
+        phase_name: Phase name
+
+    Returns:
+        Emoji character
+    """
+    emojis = {
+        'new': '🌑',
+        'waxing_crescent': '🌒',
+        'first_quarter': '🌓',
+        'waxing_gibbous': '🌔',
+        'full': '🌕',
+        'waning_gibbous': '🌖',
+        'last_quarter': '🌗',
+        'waning_crescent': '🌘'
+    }
+    return emojis.get(phase_name, '🌙')
+
+
 def find_exact_phase_time(start_jd: float, end_jd: float, target_angle: float, tolerance: float = 0.01) -> float:
     """
     Use binary search to find exact Julian Day when Sun-Moon angle matches target.

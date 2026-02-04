@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "year": 1952,
+    "generated_at": "2026-02-04T00:14:21Z",
+    "planets_tracked": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune",
+      "Pluto"
+    ],
+    "ephemeris_version": "Swiss Ephemeris 2.10.03"
+  },
+  "retrogrades": [
+    {
+      "planet": "Neptune",
+      "station_retrograde": {
+        "date": "1952-01-23T18:00:00Z",
+        "julian_day": 2434035.25,
+        "longitude": 201.711916,
+        "sign": "Libra",
+        "degree": 21.711916
+      },
+      "station_direct": {
+        "date": "1952-06-30T12:00:00Z",
+        "julian_day": 2434194.0,
+        "longitude": 198.931195,
+        "sign": "Libra",
+        "degree": 18.931195
+      },
+      "duration_days": 158.75
+    },
+    {
+      "planet": "Saturn",
+      "station_retrograde": {
+        "date": "1952-01-24T18:00:00Z",
+        "julian_day": 2434036.25,
+        "longitude": 194.978586,
+        "sign": "Libra",
+        "degree": 14.978586
+      },
+      "station_direct": {
+        "date": "1952-06-10T12:00:00Z",
+        "julian_day": 2434174.0,
+        "longitude": 188.192456,
+        "sign": "Libra",
+        "degree": 8.192456
+      },
+      "duration_days": 137.75
+    },
+    {
+      "planet": "Mars",
+      "station_retrograde": {
+        "date": "1952-03-25T11:15:00Z",
+        "julian_day": 2434096.96875,
+        "longitude": 228.47513,
+        "sign": "Scorpio",
+        "degree": 18.47513
+      },
+      "station_direct": {
+        "date": "1952-06-10T02:37:30Z",
+        "julian_day": 2434173.609375,
+        "longitude": 211.16516,
+        "sign": "Scorpio",
+        "degree": 1.16516
+      },
+      "duration_days": 76.640625,
+      "pre_retrograde_shadow_start": "1952-03-05T11:15:00Z",
+      "post_retrograde_shadow_end": "1952-06-30T02:37:30Z"
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1952-03-26T13:55:18Z",
+        "julian_day": 2434098.080078,
+        "longitude": 20.417014,
+        "sign": "Aries",
+        "degree": 20.417014
+      },
+      "station_direct": {
+        "date": "1952-04-19T01:32:48Z",
+        "julian_day": 2434121.564453,
+        "longitude": 8.680439,
+        "sign": "Aries",
+        "degree": 8.680439
+      },
+      "duration_days": 23.484375,
+      "pre_retrograde_shadow_start": "1952-03-11T13:55:18Z",
+      "post_retrograde_shadow_end": "1952-05-04T01:32:48Z"
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1952-07-29T20:31:52Z",
+        "julian_day": 2434223.355469,
+        "longitude": 147.165078,
+        "sign": "Leo",
+        "degree": 27.165078
+      },
+      "station_direct": {
+        "date": "1952-08-22T16:55:18Z",
+        "julian_day": 2434247.205078,
+        "longitude": 134.887246,
+        "sign": "Leo",
+        "degree": 14.887246
+      },
+      "duration_days": 23.849609,
+      "pre_retrograde_shadow_start": "1952-07-14T20:31:52Z",
+      "post_retrograde_shadow_end": "1952-09-06T16:55:18Z"
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1952-11-20T06:43:35Z",
+        "julian_day": 2434336.780273,
+        "longitude": 256.519315,
+        "sign": "Sagitarius",
+        "degree": 16.519315
+      },
+      "station_direct": {
+        "date": "1952-12-10T01:28:35Z",
+        "julian_day": 2434356.561523,
+        "longitude": 240.269152,
+        "sign": "Sagitarius",
+        "degree": 0.269152
+      },
+      "duration_days": 19.78125,
+      "pre_retrograde_shadow_start": "1952-11-05T06:43:35Z",
+      "post_retrograde_shadow_end": "1952-12-25T01:28:35Z"
+    }
+  ]
+}

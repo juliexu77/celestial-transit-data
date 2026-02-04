@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "year": 1955,
+    "generated_at": "2026-02-04T00:14:25Z",
+    "planets_tracked": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune",
+      "Pluto"
+    ],
+    "ephemeris_version": "Swiss Ephemeris 2.10.03"
+  },
+  "retrogrades": [
+    {
+      "planet": "Neptune",
+      "station_retrograde": {
+        "date": "1955-01-29T18:00:00Z",
+        "julian_day": 2435137.25,
+        "longitude": 208.24112,
+        "sign": "Libra",
+        "degree": 28.24112
+      },
+      "station_direct": {
+        "date": "1955-07-07T18:00:00Z",
+        "julian_day": 2435296.25,
+        "longitude": 205.464648,
+        "sign": "Libra",
+        "degree": 25.464648
+      },
+      "duration_days": 159.0
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1955-02-03T20:54:22Z",
+        "julian_day": 2435142.371094,
+        "longitude": 329.655005,
+        "sign": "Aquarius",
+        "degree": 29.655005
+      },
+      "station_direct": {
+        "date": "1955-02-25T10:15:56Z",
+        "julian_day": 2435163.927734,
+        "longitude": 314.356906,
+        "sign": "Aquarius",
+        "degree": 14.356906
+      },
+      "duration_days": 21.55664,
+      "pre_retrograde_shadow_start": "1955-01-19T20:54:22Z",
+      "post_retrograde_shadow_end": "1955-03-12T10:15:56Z"
+    },
+    {
+      "planet": "Saturn",
+      "station_retrograde": {
+        "date": "1955-03-01T06:00:00Z",
+        "julian_day": 2435167.75,
+        "longitude": 231.17724,
+        "sign": "Scorpio",
+        "degree": 21.17724
+      },
+      "station_direct": {
+        "date": "1955-07-19T07:30:00Z",
+        "julian_day": 2435307.8125,
+        "longitude": 224.500827,
+        "sign": "Scorpio",
+        "degree": 14.500827
+      },
+      "duration_days": 140.0625
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1955-06-03T22:46:52Z",
+        "julian_day": 2435262.449219,
+        "longitude": 88.843304,
+        "sign": "Gemini",
+        "degree": 28.843304
+      },
+      "station_direct": {
+        "date": "1955-06-27T23:09:22Z",
+        "julian_day": 2435286.464844,
+        "longitude": 80.153657,
+        "sign": "Gemini",
+        "degree": 20.153657
+      },
+      "duration_days": 24.015625,
+      "pre_retrograde_shadow_start": "1955-05-19T22:46:52Z",
+      "post_retrograde_shadow_end": "1955-07-12T23:09:22Z"
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1955-10-01T13:58:07Z",
+        "julian_day": 2435382.082031,
+        "longitude": 208.635771,
+        "sign": "Libra",
+        "degree": 28.635771
+      },
+      "station_direct": {
+        "date": "1955-10-22T19:21:33Z",
+        "julian_day": 2435403.306641,
+        "longitude": 193.161443,
+        "sign": "Libra",
+        "degree": 13.161443
+      },
+      "duration_days": 21.22461,
+      "pre_retrograde_shadow_start": "1955-09-16T13:58:07Z",
+      "post_retrograde_shadow_end": "1955-11-06T19:21:33Z"
+    }
+  ]
+}

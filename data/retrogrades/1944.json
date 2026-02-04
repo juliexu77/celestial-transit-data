@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "year": 1944,
+    "generated_at": "2026-02-04T00:14:06Z",
+    "planets_tracked": [
+      "Mercury",
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune",
+      "Pluto"
+    ],
+    "ephemeris_version": "Swiss Ephemeris 2.10.03"
+  },
+  "retrogrades": [
+    {
+      "planet": "Neptune",
+      "station_retrograde": {
+        "date": "1944-01-06T06:00:00Z",
+        "julian_day": 2431095.75,
+        "longitude": 184.247082,
+        "sign": "Libra",
+        "degree": 4.247082
+      },
+      "station_direct": {
+        "date": "1944-06-12T12:00:00Z",
+        "julian_day": 2431254.0,
+        "longitude": 181.464093,
+        "sign": "Libra",
+        "degree": 1.464093
+      },
+      "duration_days": 158.25
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1944-04-22T00:33:45Z",
+        "julian_day": 2431202.523438,
+        "longitude": 46.415192,
+        "sign": "Taurus",
+        "degree": 16.415192
+      },
+      "station_direct": {
+        "date": "1944-05-15T19:38:26Z",
+        "julian_day": 2431226.318359,
+        "longitude": 36.777088,
+        "sign": "Taurus",
+        "degree": 6.777088
+      },
+      "duration_days": 23.794921,
+      "pre_retrograde_shadow_start": "1944-04-07T00:33:45Z",
+      "post_retrograde_shadow_end": "1944-05-30T19:38:26Z"
+    },
+    {
+      "planet": "Mercury",
+      "station_retrograde": {
+        "date": "1944-08-24T08:26:15Z",
+        "julian_day": 2431326.851562,
+        "longitude": 172.472431,
+        "sign": "Virgo",
+        "degree": 22.472431
+      },
+      "station_direct": {
+        "date": "1944-09-16T06:46:24Z",
+        "julian_day": 2431349.782227,
+        "longitude": 158.515848,
+        "sign": "Virgo",
+        "degree": 8.515848
+      },
+      "duration_days": 22.930665,
+      "pre_retrograde_shadow_start": "1944-08-09T08:26:14Z",
+      "post_retrograde_shadow_end": "1944-10-01T06:46:24Z"
+    }
+  ]
+}

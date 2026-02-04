@@ -1,0 +1,2025 @@
+{
+  "metadata": {
+    "year": 1954,
+    "generated_at": "2026-02-04T00:14:24Z",
+    "ephemeris_version": "Swiss Ephemeris 2.10.03",
+    "aspects_tracked": "Outer planets (Jupiter-Pluto) and Sun to outer planets"
+  },
+  "aspects": [
+    {
+      "type": "aspect",
+      "aspect": "square",
+      "symbol": "□",
+      "planet1": "Uranus",
+      "planet2": "Neptune",
+      "date": "1953-12-31T00:00:00Z",
+      "julian_day": 2434742.5,
+      "planet1_position": {
+        "longitude": 111.570704,
+        "sign": "Cancer",
+        "degree": 21.570704
+      },
+      "planet2_position": {
+        "longitude": 205.849585,
+        "sign": "Libra",
+        "degree": 25.849585
+      },
+      "exactness": 4.27888068,
+      "orb_used": 6
+    },
+    {
+      "type": "aspect",
+      "aspect": "sextile",
+      "symbol": "⚹",
+      "planet1": "Neptune",
+      "planet2": "Pluto",
+      "date": "1953-12-31T00:00:00Z",
+      "julian_day": 2434742.5,
+      "planet1_position": {
+        "longitude": 205.849585,
+        "sign": "Libra",
+        "degree": 25.849585
+      },
+      "planet2_position": {
+        "longitude": 144.743394,
+        "sign": "Leo",
+        "degree": 24.743394
+      },
+      "exactness": 1.10619069,
+      "orb_used": 4
+    },
+    {
+      "type": "aspect",
+      "aspect": "sextile",
+      "symbol": "⚹",
+      "planet1": "Jupiter",
+      "planet2": "Pluto",
+      "date": "1954-03-24T00:00:00Z",
+      "julian_day": 2434825.5,
+      "planet1_position": {
+        "longitude": 79.131929,
+        "sign": "Gemini",
+        "degree": 19.131929
+      },
+      "planet2_position": {
+        "longitude": 142.92765,
+        "sign": "Leo",
+        "degree": 22.92765
+      },
+      "exactness": 3.79572081,
+      "orb_used": 4
+    },
+    {
+      "type": "aspect",
+      "aspect": "trine",
+      "symbol": "△",
+      "planet1": "Jupiter",
+      "planet2": "Neptune",
+      "date": "1954-03-27T00:00:00Z",
+      "julian_day": 2434828.5,
+      "planet1_position": {
+        "longitude": 79.512868,
+        "sign": "Gemini",
+        "degree": 19.512868
+      },
+      "planet2_position": {
+        "longitude": 205.213167,
+        "sign": "Libra",
+        "degree": 25.213167
+      },
+      "exactness": 5.70029939,
+      "orb_used": 6
+    },
+    {
+      "type": "aspect",
+      "aspect": "square",
+      "symbol": "□",
+      "planet1": "Uranus",
+      "planet2": "Neptune",
+      "date": "1954-04-05T00:00:00Z",
+      "julian_day": 2434837.5,
+      "planet1_position": {
+        "longitude": 109.029879,
+        "sign": "Cancer",
+        "degree": 19.029879
+      },
+      "planet2_position": {
+        "longitude": 204.977358,
+        "sign": "Libra",
+        "degree": 24.977358
+      },
+      "exactness": 5.94747992,
+      "orb_used": 6
+    },
+    {
+      "type": "aspect",
+      "aspect": "trine",
+      "symbol": "△",
+      "planet1": "Jupiter",
+      "planet2": "Saturn",
+      "date": "1954-05-19T00:00:00Z",
+      "julian_day": 2434881.5,
+      "planet1_position": {
+        "longitude": 88.895166,
+        "sign": "Gemini",
+        "degree": 28.895166
+      },
+      "planet2_position": {
+        "longitude": 214.424275,
+        "sign": "Scorpio",
+        "degree": 4.424275
+      },
+      "exactness": 5.52910955,
+      "orb_used": 6
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Jupiter",
+      "planet2": "Uranus",
+      "date": "1954-08-08T00:00:00Z",
+      "julian_day": 2434962.5,
+      "planet1_position": {
+        "longitude": 106.869279,
+        "sign": "Cancer",
+        "degree": 16.869279
+      },
+      "planet2_position": {
+        "longitude": 114.714393,
+        "sign": "Cancer",
+        "degree": 24.714393
+      },
+      "exactness": 7.84511371,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "square",
+      "symbol": "□",
+      "planet1": "Jupiter",
+      "planet2": "Neptune",
+      "date": "1954-08-13T00:00:00Z",
+      "julian_day": 2434967.5,
+      "planet1_position": {
+        "longitude": 107.919096,
+        "sign": "Cancer",
+        "degree": 17.919096
+      },
+      "planet2_position": {
+        "longitude": 203.680599,
+        "sign": "Libra",
+        "degree": 23.680599
+      },
+      "exactness": 5.76150305,
+      "orb_used": 6
+    }
+  ],
+  "ingresses": [
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-01-01T16:39:29Z",
+      "julian_day": 2434744.194092,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 0.00090942
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-01-04T00:45:31Z",
+      "julian_day": 2434746.531616,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 0.00032731
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-01-06T06:08:57Z",
+      "julian_day": 2434748.756226,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 29.99948724
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-01-08T09:42:53Z",
+      "julian_day": 2434750.904785,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 0.0003196
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-01-10T12:26:43Z",
+      "julian_day": 2434753.018555,
+      "from_sign": "Pisces",
+      "to_sign": "Aries",
+      "exact_degree": 29.99923137
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-01-12T15:09:40Z",
+      "julian_day": 2434755.131714,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 29.99990769
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-01-14T18:29:10Z",
+      "julian_day": 2434757.270264,
+      "from_sign": "Taurus",
+      "to_sign": "Gemini",
+      "exact_degree": 0.00051826
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-01-16T23:00:45Z",
+      "julian_day": 2434759.458862,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 0.00039
+    },
+    {
+      "type": "ingress",
+      "planet": "Mercury",
+      "date": "1954-01-18T07:42:39Z",
+      "julian_day": 2434760.821289,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 29.99951528
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-01-19T05:24:08Z",
+      "julian_day": 2434761.725098,
+      "from_sign": "Cancer",
+      "to_sign": "Leo",
+      "exact_degree": 0.00066398
+    },
+    {
+      "type": "ingress",
+      "planet": "Sun",
+      "date": "1954-01-20T14:12:11Z",
+      "julian_day": 2434763.091797,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 0.00083114
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-01-21T14:13:46Z",
+      "julian_day": 2434764.092896,
+      "from_sign": "Leo",
+      "to_sign": "Virgo",
+      "exact_degree": 29.9999565
+    },
+    {
+      "type": "ingress",
+      "planet": "Venus",
+      "date": "1954-01-22T09:19:41Z",
+      "julian_day": 2434764.888672,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 29.99942649
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-01-24T01:30:00Z",
+      "julian_day": 2434766.5625,
+      "from_sign": "Virgo",
+      "to_sign": "Libra",
+      "exact_degree": 0.00052544
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-01-26T14:03:23Z",
+      "julian_day": 2434769.085693,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 0.00074212
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-01-29T01:42:18Z",
+      "julian_day": 2434771.571045,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 29.99938103
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-01-31T10:26:29Z",
+      "julian_day": 2434773.935059,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 29.99986843
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-02-02T15:37:47Z",
+      "julian_day": 2434776.151245,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 0.00023227
+    },
+    {
+      "type": "ingress",
+      "planet": "Mercury",
+      "date": "1954-02-04T18:02:48Z",
+      "julian_day": 2434778.251953,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 29.99993059
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-02-04T18:03:09Z",
+      "julian_day": 2434778.252197,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 29.99985864
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-02-06T19:14:10Z",
+      "julian_day": 2434780.301514,
+      "from_sign": "Pisces",
+      "to_sign": "Aries",
+      "exact_degree": 0.00022046
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-02-08T20:46:59Z",
+      "julian_day": 2434782.365967,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 0.00095182
+    },
+    {
+      "type": "ingress",
+      "planet": "Mars",
+      "date": "1954-02-09T19:18:45Z",
+      "julian_day": 2434783.304688,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 0.00050713
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-02-10T23:54:01Z",
+      "julian_day": 2434784.49585,
+      "from_sign": "Taurus",
+      "to_sign": "Gemini",
+      "exact_degree": 29.999181
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-02-13T05:09:54Z",
+      "julian_day": 2434786.71521,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 5.715e-05
+    },
+    {
+      "type": "ingress",
+      "planet": "Venus",
+      "date": "1954-02-15T07:01:52Z",
+      "julian_day": 2434788.792969,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 0.00076099
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-02-15T12:35:19Z",
+      "julian_day": 2434789.024536,
+      "from_sign": "Cancer",
+      "to_sign": "Leo",
+      "exact_degree": 0.00028638
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-02-17T22:00:17Z",
+      "julian_day": 2434791.41687,
+      "from_sign": "Leo",
+      "to_sign": "Virgo",
+      "exact_degree": 0.00042333
+    },
+    {
+      "type": "ingress",
+      "planet": "Sun",
+      "date": "1954-02-19T04:32:48Z",
+      "julian_day": 2434792.689453,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 0.00037987
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-02-20T09:14:03Z",
+      "julian_day": 2434793.884766,
+      "from_sign": "Virgo",
+      "to_sign": "Libra",
+      "exact_degree": 0.00034051
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-02-22T21:43:14Z",
+      "julian_day": 2434796.405029,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 29.99995018
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-02-25T10:00:07Z",
+      "julian_day": 2434798.916748,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 0.00014902
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-02-27T19:57:46Z",
+      "julian_day": 2434801.331787,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 0.00046639
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-03-02T02:06:54Z",
+      "julian_day": 2434803.588135,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 0.00083544
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-03-04T04:32:17Z",
+      "julian_day": 2434805.689087,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 0.00052935
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-03-06T04:40:01Z",
+      "julian_day": 2434807.694458,
+      "from_sign": "Pisces",
+      "to_sign": "Aries",
+      "exact_degree": 0.00056733
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-03-08T04:32:17Z",
+      "julian_day": 2434809.689087,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 0.00038879
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-03-10T06:05:58Z",
+      "julian_day": 2434811.75415,
+      "from_sign": "Taurus",
+      "to_sign": "Gemini",
+      "exact_degree": 29.99958773
+    },
+    {
+      "type": "ingress",
+      "planet": "Venus",
+      "date": "1954-03-11T07:21:33Z",
+      "julian_day": 2434812.806641,
+      "from_sign": "Pisces",
+      "to_sign": "Aries",
+      "exact_degree": 29.99999833
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-03-12T10:37:22Z",
+      "julian_day": 2434813.942627,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 0.00038009
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-03-14T18:16:41Z",
+      "julian_day": 2434816.261597,
+      "from_sign": "Cancer",
+      "to_sign": "Leo",
+      "exact_degree": 29.99946243
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-03-17T04:21:02Z",
+      "julian_day": 2434818.681274,
+      "from_sign": "Leo",
+      "to_sign": "Virgo",
+      "exact_degree": 29.99962454
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-03-19T15:57:18Z",
+      "julian_day": 2434821.164795,
+      "from_sign": "Virgo",
+      "to_sign": "Libra",
+      "exact_degree": 29.99955684
+    },
+    {
+      "type": "ingress",
+      "planet": "Sun",
+      "date": "1954-03-21T03:53:26Z",
+      "julian_day": 2434822.662109,
+      "from_sign": "Pisces",
+      "to_sign": "Aries",
+      "exact_degree": 4.911e-05
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-03-22T04:25:57Z",
+      "julian_day": 2434823.684692,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 29.99985426
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-03-24T16:56:00Z",
+      "julian_day": 2434826.205566,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 0.00046208
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-03-27T03:55:01Z",
+      "julian_day": 2434828.663208,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 29.99998631
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-03-29T11:37:19Z",
+      "julian_day": 2434830.984253,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 0.00035764
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-03-31T15:16:31Z",
+      "julian_day": 2434833.136475,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 0.00079145
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-04-02T15:40:04Z",
+      "julian_day": 2434835.152832,
+      "from_sign": "Pisces",
+      "to_sign": "Aries",
+      "exact_degree": 0.0005935
+    },
+    {
+      "type": "ingress",
+      "planet": "Venus",
+      "date": "1954-04-04T11:54:22Z",
+      "julian_day": 2434836.996094,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 29.9994532
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-04-04T14:42:35Z",
+      "julian_day": 2434837.112915,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 0.00082539
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-04-06T14:39:47Z",
+      "julian_day": 2434839.110962,
+      "from_sign": "Taurus",
+      "to_sign": "Gemini",
+      "exact_degree": 5.933e-05
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-04-08T17:28:32Z",
+      "julian_day": 2434841.228149,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 0.00014836
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-04-11T00:05:16Z",
+      "julian_day": 2434843.503662,
+      "from_sign": "Cancer",
+      "to_sign": "Leo",
+      "exact_degree": 29.99903237
+    },
+    {
+      "type": "ingress",
+      "planet": "Mars",
+      "date": "1954-04-12T16:30:00Z",
+      "julian_day": 2434845.1875,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 0.00064228
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-04-13T10:02:45Z",
+      "julian_day": 2434845.918579,
+      "from_sign": "Leo",
+      "to_sign": "Virgo",
+      "exact_degree": 0.00024226
+    },
+    {
+      "type": "ingress",
+      "planet": "Mercury",
+      "date": "1954-04-13T11:34:41Z",
+      "julian_day": 2434845.982422,
+      "from_sign": "Pisces",
+      "to_sign": "Aries",
+      "exact_degree": 0.00057961
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-04-15T21:57:28Z",
+      "julian_day": 2434848.414917,
+      "from_sign": "Virgo",
+      "to_sign": "Libra",
+      "exact_degree": 29.99987399
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-04-18T10:32:06Z",
+      "julian_day": 2434850.938965,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 0.0005892
+    },
+    {
+      "type": "ingress",
+      "planet": "Sun",
+      "date": "1954-04-20T15:19:41Z",
+      "julian_day": 2434853.138672,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 0.00011847
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-04-20T22:54:57Z",
+      "julian_day": 2434853.454834,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 0.00017463
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-04-23T10:11:00Z",
+      "julian_day": 2434855.924316,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 29.99912316
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-04-25T19:01:52Z",
+      "julian_day": 2434858.292969,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 29.99905336
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-04-28T00:21:05Z",
+      "julian_day": 2434860.514648,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 0.00099082
+    },
+    {
+      "type": "ingress",
+      "planet": "Venus",
+      "date": "1954-04-28T22:03:16Z",
+      "julian_day": 2434861.418945,
+      "from_sign": "Taurus",
+      "to_sign": "Gemini",
+      "exact_degree": 0.00017788
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-04-30T02:08:29Z",
+      "julian_day": 2434862.589233,
+      "from_sign": "Pisces",
+      "to_sign": "Aries",
+      "exact_degree": 29.99995237
+    },
+    {
+      "type": "ingress",
+      "planet": "Mercury",
+      "date": "1954-04-30T11:26:15Z",
+      "julian_day": 2434862.976562,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 0.00053363
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-05-02T01:42:28Z",
+      "julian_day": 2434864.571167,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 0.00033683
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-05-04T01:06:26Z",
+      "julian_day": 2434866.546143,
+      "from_sign": "Taurus",
+      "to_sign": "Gemini",
+      "exact_degree": 0.00043478
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-05-06T02:29:56Z",
+      "julian_day": 2434868.604126,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 0.00030319
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-05-08T07:28:35Z",
+      "julian_day": 2434870.811523,
+      "from_sign": "Cancer",
+      "to_sign": "Leo",
+      "exact_degree": 29.99982287
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-05-10T16:22:37Z",
+      "julian_day": 2434873.182373,
+      "from_sign": "Leo",
+      "to_sign": "Virgo",
+      "exact_degree": 0.00057106
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-05-13T04:03:16Z",
+      "julian_day": 2434875.668945,
+      "from_sign": "Virgo",
+      "to_sign": "Libra",
+      "exact_degree": 29.9998128
+    },
+    {
+      "type": "ingress",
+      "planet": "Mercury",
+      "date": "1954-05-14T13:56:43Z",
+      "julian_day": 2434877.081055,
+      "from_sign": "Taurus",
+      "to_sign": "Gemini",
+      "exact_degree": 29.99956841
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-05-15T16:41:46Z",
+      "julian_day": 2434878.195679,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 29.99963499
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-05-18T04:53:12Z",
+      "julian_day": 2434880.703613,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 29.9995905
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-05-20T15:48:52Z",
+      "julian_day": 2434883.158936,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 9.93e-05
+    },
+    {
+      "type": "ingress",
+      "planet": "Sun",
+      "date": "1954-05-21T14:48:45Z",
+      "julian_day": 2434884.117188,
+      "from_sign": "Taurus",
+      "to_sign": "Gemini",
+      "exact_degree": 0.00092119
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-05-23T00:48:09Z",
+      "julian_day": 2434885.533447,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 0.00027465
+    },
+    {
+      "type": "ingress",
+      "planet": "Venus",
+      "date": "1954-05-23T15:02:48Z",
+      "julian_day": 2434886.126953,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 29.99933484
+    },
+    {
+      "type": "ingress",
+      "planet": "Jupiter",
+      "date": "1954-05-24T04:41:15Z",
+      "julian_day": 2434886.695312,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 29.99973209
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-05-25T07:08:22Z",
+      "julian_day": 2434887.797485,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 29.99991705
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-05-27T10:31:34Z",
+      "julian_day": 2434889.938599,
+      "from_sign": "Pisces",
+      "to_sign": "Aries",
+      "exact_degree": 29.99985444
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-05-29T11:33:16Z",
+      "julian_day": 2434891.981445,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 29.99915195
+    },
+    {
+      "type": "ingress",
+      "planet": "Mercury",
+      "date": "1954-05-30T16:13:07Z",
+      "julian_day": 2434893.175781,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 0.00049665
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-05-31T11:40:29Z",
+      "julian_day": 2434893.98645,
+      "from_sign": "Taurus",
+      "to_sign": "Gemini",
+      "exact_degree": 29.99975801
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-06-02T12:45:31Z",
+      "julian_day": 2434896.031616,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 0.00014089
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-06-04T16:34:02Z",
+      "julian_day": 2434898.190308,
+      "from_sign": "Cancer",
+      "to_sign": "Leo",
+      "exact_degree": 29.99987317
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-06-07T00:06:09Z",
+      "julian_day": 2434900.504272,
+      "from_sign": "Leo",
+      "to_sign": "Virgo",
+      "exact_degree": 0.00034207
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-06-09T10:58:49Z",
+      "julian_day": 2434902.95752,
+      "from_sign": "Virgo",
+      "to_sign": "Libra",
+      "exact_degree": 29.99922012
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-06-11T23:29:35Z",
+      "julian_day": 2434905.478882,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 0.00034111
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-06-14T11:37:08Z",
+      "julian_day": 2434907.984131,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 29.99953321
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-06-16T22:05:02Z",
+      "julian_day": 2434910.420166,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 0.00039243
+    },
+    {
+      "type": "ingress",
+      "planet": "Venus",
+      "date": "1954-06-17T17:03:45Z",
+      "julian_day": 2434911.210938,
+      "from_sign": "Cancer",
+      "to_sign": "Leo",
+      "exact_degree": 29.99957626
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-06-19T06:26:00Z",
+      "julian_day": 2434912.768066,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 0.00098773
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-06-21T12:36:44Z",
+      "julian_day": 2434915.025513,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 0.00060455
+    },
+    {
+      "type": "ingress",
+      "planet": "Sun",
+      "date": "1954-06-21T22:52:30Z",
+      "julian_day": 2434915.453125,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 29.99900345
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-06-23T16:43:32Z",
+      "julian_day": 2434917.196899,
+      "from_sign": "Pisces",
+      "to_sign": "Aries",
+      "exact_degree": 29.99994055
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-06-25T19:08:54Z",
+      "julian_day": 2434919.297852,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 0.00047055
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-06-27T20:41:22Z",
+      "julian_day": 2434921.362061,
+      "from_sign": "Taurus",
+      "to_sign": "Gemini",
+      "exact_degree": 29.99976614
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-06-29T22:35:16Z",
+      "julian_day": 2434923.441162,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 29.99928192
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-07-02T02:16:24Z",
+      "julian_day": 2434925.594727,
+      "from_sign": "Cancer",
+      "to_sign": "Leo",
+      "exact_degree": 0.00070454
+    },
+    {
+      "type": "ingress",
+      "planet": "Mars",
+      "date": "1954-07-04T00:00:00Z",
+      "julian_day": 2434927.5,
+      "from_sign": "Capricorn",
+      "to_sign": "Capricorn",
+      "exact_degree": 29.79636663
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-07-04T08:55:46Z",
+      "julian_day": 2434927.87207,
+      "from_sign": "Leo",
+      "to_sign": "Virgo",
+      "exact_degree": 0.00043586
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-07-06T18:53:05Z",
+      "julian_day": 2434930.286865,
+      "from_sign": "Virgo",
+      "to_sign": "Libra",
+      "exact_degree": 0.00058689
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-07-09T07:03:37Z",
+      "julian_day": 2434932.794189,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 29.9998316
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-07-11T19:18:34Z",
+      "julian_day": 2434935.304565,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 0.00041854
+    },
+    {
+      "type": "ingress",
+      "planet": "Venus",
+      "date": "1954-07-13T08:43:07Z",
+      "julian_day": 2434936.863281,
+      "from_sign": "Leo",
+      "to_sign": "Virgo",
+      "exact_degree": 0.00043771
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-07-14T05:39:47Z",
+      "julian_day": 2434937.735962,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 29.99983227
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-07-16T13:19:06Z",
+      "julian_day": 2434940.054932,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 0.00031462
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-07-18T18:32:41Z",
+      "julian_day": 2434942.272705,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 29.99984707
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-07-20T22:07:08Z",
+      "julian_day": 2434944.421631,
+      "from_sign": "Pisces",
+      "to_sign": "Aries",
+      "exact_degree": 29.99915845
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-07-23T00:52:12Z",
+      "julian_day": 2434946.536255,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 29.99997559
+    },
+    {
+      "type": "ingress",
+      "planet": "Sun",
+      "date": "1954-07-23T09:45:00Z",
+      "julian_day": 2434946.90625,
+      "from_sign": "Cancer",
+      "to_sign": "Leo",
+      "exact_degree": 5.745e-05
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-07-25T03:30:14Z",
+      "julian_day": 2434948.645996,
+      "from_sign": "Taurus",
+      "to_sign": "Gemini",
+      "exact_degree": 0.00053587
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-07-27T06:40:57Z",
+      "julian_day": 2434950.778442,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 29.99966036
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-07-29T11:10:25Z",
+      "julian_day": 2434952.965576,
+      "from_sign": "Cancer",
+      "to_sign": "Leo",
+      "exact_degree": 0.00043589
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-07-31T17:49:27Z",
+      "julian_day": 2434955.242676,
+      "from_sign": "Leo",
+      "to_sign": "Virgo",
+      "exact_degree": 29.9998008
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-08-03T03:13:53Z",
+      "julian_day": 2434957.634644,
+      "from_sign": "Virgo",
+      "to_sign": "Libra",
+      "exact_degree": 0.00033648
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-08-05T15:02:38Z",
+      "julian_day": 2434960.126831,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 0.00040199
+    },
+    {
+      "type": "ingress",
+      "planet": "Mercury",
+      "date": "1954-08-07T14:43:07Z",
+      "julian_day": 2434962.113281,
+      "from_sign": "Cancer",
+      "to_sign": "Leo",
+      "exact_degree": 29.99927685
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-08-08T03:32:20Z",
+      "julian_day": 2434962.647461,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 0.00067377
+    },
+    {
+      "type": "ingress",
+      "planet": "Venus",
+      "date": "1954-08-09T00:33:45Z",
+      "julian_day": 2434963.523438,
+      "from_sign": "Virgo",
+      "to_sign": "Libra",
+      "exact_degree": 0.00012521
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-08-10T14:20:05Z",
+      "julian_day": 2434965.09729,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 0.00044393
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-08-12T21:54:08Z",
+      "julian_day": 2434967.412598,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 0.00024317
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-08-15T02:16:45Z",
+      "julian_day": 2434969.594971,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 29.9995446
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-08-17T04:37:33Z",
+      "julian_day": 2434971.692749,
+      "from_sign": "Pisces",
+      "to_sign": "Aries",
+      "exact_degree": 0.00054882
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-08-19T06:25:50Z",
+      "julian_day": 2434973.767944,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 0.00032302
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-08-21T08:55:57Z",
+      "julian_day": 2434975.872192,
+      "from_sign": "Taurus",
+      "to_sign": "Gemini",
+      "exact_degree": 29.99974362
+    },
+    {
+      "type": "ingress",
+      "planet": "Mercury",
+      "date": "1954-08-22T17:41:43Z",
+      "julian_day": 2434977.237305,
+      "from_sign": "Leo",
+      "to_sign": "Virgo",
+      "exact_degree": 0.00013727
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-08-23T12:49:44Z",
+      "julian_day": 2434978.034546,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 29.99985742
+    },
+    {
+      "type": "ingress",
+      "planet": "Sun",
+      "date": "1954-08-23T16:35:37Z",
+      "julian_day": 2434978.191406,
+      "from_sign": "Leo",
+      "to_sign": "Virgo",
+      "exact_degree": 29.99983582
+    },
+    {
+      "type": "ingress",
+      "planet": "Mars",
+      "date": "1954-08-24T13:18:45Z",
+      "julian_day": 2434979.054688,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 29.9993153
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-08-25T18:22:08Z",
+      "julian_day": 2434980.265381,
+      "from_sign": "Cancer",
+      "to_sign": "Leo",
+      "exact_degree": 0.00036016
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-08-28T01:43:32Z",
+      "julian_day": 2434982.571899,
+      "from_sign": "Leo",
+      "to_sign": "Virgo",
+      "exact_degree": 29.99950046
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-08-30T11:11:50Z",
+      "julian_day": 2434984.966553,
+      "from_sign": "Virgo",
+      "to_sign": "Libra",
+      "exact_degree": 29.99914996
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-09-01T22:48:27Z",
+      "julian_day": 2434987.450317,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 29.99978701
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-09-04T11:32:13Z",
+      "julian_day": 2434989.980713,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 0.0006578
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-09-06T23:10:04Z",
+      "julian_day": 2434992.465332,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 0.00098387
+    },
+    {
+      "type": "ingress",
+      "planet": "Venus",
+      "date": "1954-09-06T23:29:03Z",
+      "julian_day": 2434992.478516,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 0.00039304
+    },
+    {
+      "type": "ingress",
+      "planet": "Mercury",
+      "date": "1954-09-08T08:05:09Z",
+      "julian_day": 2434993.836914,
+      "from_sign": "Virgo",
+      "to_sign": "Libra",
+      "exact_degree": 0.00018199
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-09-09T07:30:52Z",
+      "julian_day": 2434994.81311,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 29.99956137
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-09-11T11:54:54Z",
+      "julian_day": 2434996.99646,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 29.99983236
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-09-13T13:22:05Z",
+      "julian_day": 2434999.057007,
+      "from_sign": "Pisces",
+      "to_sign": "Aries",
+      "exact_degree": 0.00041729
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-09-15T13:44:03Z",
+      "julian_day": 2435001.072266,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 29.99977043
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-09-17T14:54:33Z",
+      "julian_day": 2435003.121216,
+      "from_sign": "Taurus",
+      "to_sign": "Gemini",
+      "exact_degree": 29.99939773
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-09-19T18:12:39Z",
+      "julian_day": 2435005.258789,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 29.99912983
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-09-22T00:03:41Z",
+      "julian_day": 2435007.502563,
+      "from_sign": "Cancer",
+      "to_sign": "Leo",
+      "exact_degree": 1.39e-05
+    },
+    {
+      "type": "ingress",
+      "planet": "Sun",
+      "date": "1954-09-23T13:55:18Z",
+      "julian_day": 2435009.080078,
+      "from_sign": "Virgo",
+      "to_sign": "Libra",
+      "exact_degree": 6.372e-05
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-09-24T08:10:36Z",
+      "julian_day": 2435009.840698,
+      "from_sign": "Leo",
+      "to_sign": "Virgo",
+      "exact_degree": 29.99993006
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-09-26T18:10:53Z",
+      "julian_day": 2435012.257568,
+      "from_sign": "Virgo",
+      "to_sign": "Libra",
+      "exact_degree": 0.00024578
+    },
+    {
+      "type": "ingress",
+      "planet": "Mercury",
+      "date": "1954-09-29T04:06:05Z",
+      "julian_day": 2435014.670898,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 29.9998728
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-09-29T05:51:54Z",
+      "julian_day": 2435014.744385,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 29.99972912
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-10-01T18:41:07Z",
+      "julian_day": 2435017.278564,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 9.476e-05
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-10-04T07:04:20Z",
+      "julian_day": 2435019.794678,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 0.0009799
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-10-06T16:45:17Z",
+      "julian_day": 2435022.19812,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 29.9997889
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-10-08T22:16:48Z",
+      "julian_day": 2435024.428345,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 0.00061896
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-10-10T23:58:03Z",
+      "julian_day": 2435026.498657,
+      "from_sign": "Pisces",
+      "to_sign": "Aries",
+      "exact_degree": 0.0001427
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-10-12T23:31:41Z",
+      "julian_day": 2435028.480347,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 29.9996677
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-10-14T23:09:43Z",
+      "julian_day": 2435030.465088,
+      "from_sign": "Taurus",
+      "to_sign": "Gemini",
+      "exact_degree": 0.00091156
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-10-17T00:49:44Z",
+      "julian_day": 2435032.534546,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 0.00046408
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-10-19T05:41:00Z",
+      "julian_day": 2435034.736816,
+      "from_sign": "Cancer",
+      "to_sign": "Leo",
+      "exact_degree": 0.00051647
+    },
+    {
+      "type": "ingress",
+      "planet": "Mars",
+      "date": "1954-10-21T12:02:48Z",
+      "julian_day": 2435037.001953,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 6.806e-05
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-10-21T13:44:24Z",
+      "julian_day": 2435037.07251,
+      "from_sign": "Leo",
+      "to_sign": "Virgo",
+      "exact_degree": 29.99995544
+    },
+    {
+      "type": "ingress",
+      "planet": "Venus",
+      "date": "1954-10-23T22:07:30Z",
+      "julian_day": 2435039.421875,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 29.99996952
+    },
+    {
+      "type": "ingress",
+      "planet": "Sun",
+      "date": "1954-10-23T22:55:18Z",
+      "julian_day": 2435039.455078,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 29.99930095
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-10-24T00:11:57Z",
+      "julian_day": 2435039.508301,
+      "from_sign": "Virgo",
+      "to_sign": "Libra",
+      "exact_degree": 8.733e-05
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-10-26T12:10:32Z",
+      "julian_day": 2435042.007324,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 29.99940633
+    },
+    {
+      "type": "ingress",
+      "planet": "Venus",
+      "date": "1954-10-28T00:00:00Z",
+      "julian_day": 2435043.5,
+      "from_sign": "Sagitarius",
+      "to_sign": "Sagitarius",
+      "exact_degree": 29.9551878
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-10-29T00:58:42Z",
+      "julian_day": 2435044.540771,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 0.00044052
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-10-31T13:35:58Z",
+      "julian_day": 2435047.06665,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 29.99917396
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-11-03T00:21:58Z",
+      "julian_day": 2435049.515259,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 0.00012889
+    },
+    {
+      "type": "ingress",
+      "planet": "Mercury",
+      "date": "1954-11-04T00:00:00Z",
+      "julian_day": 2435050.5,
+      "from_sign": "Scorpio",
+      "to_sign": "Scorpio",
+      "exact_degree": 0.36506711
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-11-05T07:34:13Z",
+      "julian_day": 2435051.81543,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 29.9994387
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-11-07T10:42:28Z",
+      "julian_day": 2435053.946167,
+      "from_sign": "Pisces",
+      "to_sign": "Aries",
+      "exact_degree": 1.887e-05
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-11-09T10:48:27Z",
+      "julian_day": 2435055.950317,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 0.00023396
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-11-11T09:50:26Z",
+      "julian_day": 2435057.910034,
+      "from_sign": "Taurus",
+      "to_sign": "Gemini",
+      "exact_degree": 0.00027326
+    },
+    {
+      "type": "ingress",
+      "planet": "Mercury",
+      "date": "1954-11-11T10:24:22Z",
+      "julian_day": 2435057.933594,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 29.99984227
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-11-13T09:59:14Z",
+      "julian_day": 2435059.916138,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 0.00011026
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-11-15T13:02:45Z",
+      "julian_day": 2435062.043579,
+      "from_sign": "Cancer",
+      "to_sign": "Leo",
+      "exact_degree": 29.99949179
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-11-17T19:52:08Z",
+      "julian_day": 2435064.327881,
+      "from_sign": "Leo",
+      "to_sign": "Virgo",
+      "exact_degree": 29.99926595
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-11-20T06:02:06Z",
+      "julian_day": 2435066.751465,
+      "from_sign": "Virgo",
+      "to_sign": "Libra",
+      "exact_degree": 29.99950076
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-11-22T18:13:00Z",
+      "julian_day": 2435069.259033,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 0.00094793
+    },
+    {
+      "type": "ingress",
+      "planet": "Sun",
+      "date": "1954-11-22T20:15:00Z",
+      "julian_day": 2435069.34375,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 0.00058373
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-11-25T07:01:20Z",
+      "julian_day": 2435071.792603,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 29.99979394
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-11-27T19:23:50Z",
+      "julian_day": 2435074.308228,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 29.99979607
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-11-30T06:18:59Z",
+      "julian_day": 2435076.763184,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 29.99982522
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-12-02T14:38:12Z",
+      "julian_day": 2435079.109863,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 0.00030876
+    },
+    {
+      "type": "ingress",
+      "planet": "Mercury",
+      "date": "1954-12-04T07:01:52Z",
+      "julian_day": 2435080.792969,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 29.99938383
+    },
+    {
+      "type": "ingress",
+      "planet": "Mars",
+      "date": "1954-12-04T07:41:15Z",
+      "julian_day": 2435080.820312,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 5.349e-05
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-12-04T19:34:55Z",
+      "julian_day": 2435081.315918,
+      "from_sign": "Pisces",
+      "to_sign": "Aries",
+      "exact_degree": 29.9992628
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-12-06T21:22:40Z",
+      "julian_day": 2435083.390747,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 0.00014286
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-12-08T21:16:10Z",
+      "julian_day": 2435085.38623,
+      "from_sign": "Taurus",
+      "to_sign": "Gemini",
+      "exact_degree": 29.99980734
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-12-10T21:05:58Z",
+      "julian_day": 2435087.37915,
+      "from_sign": "Gemini",
+      "to_sign": "Cancer",
+      "exact_degree": 29.99917442
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-12-12T22:48:16Z",
+      "julian_day": 2435089.450195,
+      "from_sign": "Cancer",
+      "to_sign": "Leo",
+      "exact_degree": 0.00012432
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-12-15T03:53:47Z",
+      "julian_day": 2435091.662354,
+      "from_sign": "Leo",
+      "to_sign": "Virgo",
+      "exact_degree": 0.0009287
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-12-17T12:51:09Z",
+      "julian_day": 2435094.035522,
+      "from_sign": "Virgo",
+      "to_sign": "Libra",
+      "exact_degree": 0.00041008
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-12-20T00:43:14Z",
+      "julian_day": 2435096.530029,
+      "from_sign": "Libra",
+      "to_sign": "Scorpio",
+      "exact_degree": 6.255e-05
+    },
+    {
+      "type": "ingress",
+      "planet": "Sun",
+      "date": "1954-12-22T09:25:18Z",
+      "julian_day": 2435098.892578,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 0.00071279
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-12-22T13:34:55Z",
+      "julian_day": 2435099.065918,
+      "from_sign": "Scorpio",
+      "to_sign": "Sagitarius",
+      "exact_degree": 0.00052467
+    },
+    {
+      "type": "ingress",
+      "planet": "Mercury",
+      "date": "1954-12-23T12:09:50Z",
+      "julian_day": 2435100.006836,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 0.00018734
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-12-25T01:40:22Z",
+      "julian_day": 2435101.569702,
+      "from_sign": "Sagitarius",
+      "to_sign": "Capricorn",
+      "exact_degree": 0.00025062
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-12-27T12:00:10Z",
+      "julian_day": 2435104.000122,
+      "from_sign": "Capricorn",
+      "to_sign": "Aquarius",
+      "exact_degree": 29.99962802
+    },
+    {
+      "type": "ingress",
+      "planet": "Moon",
+      "date": "1954-12-29T20:09:11Z",
+      "julian_day": 2435106.339722,
+      "from_sign": "Aquarius",
+      "to_sign": "Pisces",
+      "exact_degree": 0.00023119
+    }
+  ]
+}
