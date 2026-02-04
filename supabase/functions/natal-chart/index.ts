@@ -308,6 +308,167 @@ function interpretSynastryAspect(planet1: string, planet2: string, aspect: strin
   return `${base}: Powerful connection that merges these planetary energies`;
 }
 
+// ============ MOON PHASE CALCULATIONS ============
+
+interface MoonPhase {
+  phase: string;
+  name: string;
+  emoji: string;
+  date: string;
+  jd: number;
+  sun_longitude: number;
+  moon_longitude: number;
+  sun_sign: string;
+  moon_sign: string;
+  sun_degree: number;
+  moon_degree: number;
+  exactness_degrees: number;
+}
+
+const MOON_PHASE_ANGLES: Record<string, number> = {
+  new: 0,
+  first_quarter: 90,
+  full: 180,
+  last_quarter: 270
+};
+
+const MOON_PHASE_NAMES: Record<string, string> = {
+  new: "New Moon",
+  first_quarter: "First Quarter",
+  full: "Full Moon",
+  last_quarter: "Last Quarter"
+};
+
+const MOON_PHASE_EMOJIS: Record<string, string> = {
+  new: "🌑",
+  first_quarter: "🌓",
+  full: "🌕",
+  last_quarter: "🌗"
+};
+
+function getSunMoonAngle(jd: number): number {
+  const sunLon = lon("sun", jd);
+  const moonLon = lon("moon", jd);
+  return norm(moonLon - sunLon);
+}
+
+function detectPhaseCrossing(prevAngle: number, currAngle: number, targetAngle: number): boolean {
+  if (targetAngle === 0) {
+    // New moon: crossing from ~360 to ~0
+    if (prevAngle > 270 && currAngle < 90) return true;
+  } else {
+    if (prevAngle < targetAngle && currAngle >= targetAngle) return true;
+  }
+  return false;
+}
+
+function findExactPhaseTime(startJd: number, endJd: number, targetAngle: number): number {
+  const tolerance = 0.01;
+  let lo = startJd, hi = endJd;
+  
+  for (let i = 0; i < 50; i++) {
+    const mid = (lo + hi) / 2;
+    let angle = getSunMoonAngle(mid);
+    
+    if (targetAngle === 0 && angle > 180) {
+      angle = angle - 360;
+    }
+    
+    const error = angle - targetAngle;
+    if (Math.abs(error) < tolerance) return mid;
+    
+    if (error > 0) hi = mid;
+    else lo = mid;
+  }
+  
+  return (lo + hi) / 2;
+}
+
+function calcMoonPhases(year: number): MoonPhase[] {
+  const phases: MoonPhase[] = [];
+  const startJd = toJD(year, 1, 1);
+  const endJd = toJD(year + 1, 1, 1);
+  
+  let prevAngle = getSunMoonAngle(startJd);
+  
+  for (let jd = startJd + 0.5; jd < endJd; jd += 0.5) {
+    const currAngle = getSunMoonAngle(jd);
+    
+    for (const [phaseName, targetAngle] of Object.entries(MOON_PHASE_ANGLES)) {
+      if (detectPhaseCrossing(prevAngle, currAngle, targetAngle)) {
+        const exactJd = findExactPhaseTime(jd - 0.5, jd, targetAngle);
+        
+        const sunLon = lon("sun", exactJd);
+        const moonLon = lon("moon", exactJd);
+        const sunData = getSign(sunLon);
+        const moonData = getSign(moonLon);
+        
+        let angleDiff = Math.abs(getSunMoonAngle(exactJd) - targetAngle);
+        if (targetAngle === 0 && angleDiff > 180) angleDiff = 360 - angleDiff;
+        
+        phases.push({
+          phase: phaseName,
+          name: MOON_PHASE_NAMES[phaseName],
+          emoji: MOON_PHASE_EMOJIS[phaseName],
+          date: fromJD(exactJd),
+          jd: Math.round(exactJd * 1000) / 1000,
+          sun_longitude: Math.round(sunLon * 100) / 100,
+          moon_longitude: Math.round(moonLon * 100) / 100,
+          sun_sign: sunData.sign,
+          moon_sign: moonData.sign,
+          sun_degree: sunData.degree,
+          moon_degree: moonData.degree,
+          exactness_degrees: Math.round(angleDiff * 10000) / 10000
+        });
+      }
+    }
+    
+    prevAngle = currAngle;
+  }
+  
+  return phases.sort((a, b) => a.jd - b.jd);
+}
+
+function getCurrentMoonPhase(jd: number): { phase: string; name: string; emoji: string; illumination: number; age_days: number } {
+  const angle = getSunMoonAngle(jd);
+  
+  // Determine phase name from angle
+  let phase: string;
+  if (angle < 22.5 || angle >= 337.5) phase = "new";
+  else if (angle < 67.5) phase = "waxing_crescent";
+  else if (angle < 112.5) phase = "first_quarter";
+  else if (angle < 157.5) phase = "waxing_gibbous";
+  else if (angle < 202.5) phase = "full";
+  else if (angle < 247.5) phase = "waning_gibbous";
+  else if (angle < 292.5) phase = "last_quarter";
+  else phase = "waning_crescent";
+  
+  const phaseNames: Record<string, string> = {
+    new: "New Moon", waxing_crescent: "Waxing Crescent", first_quarter: "First Quarter",
+    waxing_gibbous: "Waxing Gibbous", full: "Full Moon", waning_gibbous: "Waning Gibbous",
+    last_quarter: "Last Quarter", waning_crescent: "Waning Crescent"
+  };
+  
+  const phaseEmojis: Record<string, string> = {
+    new: "🌑", waxing_crescent: "🌒", first_quarter: "🌓", waxing_gibbous: "🌔",
+    full: "🌕", waning_gibbous: "🌖", last_quarter: "🌗", waning_crescent: "🌘"
+  };
+  
+  // Illumination: 0% at new, 100% at full
+  const illumination = Math.round((1 - Math.cos(degToRad(angle))) / 2 * 100);
+  
+  // Approximate age (days since new moon, synodic month ~29.53 days)
+  const ageDays = Math.round(angle / 360 * 29.53 * 10) / 10;
+  
+  return {
+    phase,
+    name: phaseNames[phase],
+    emoji: phaseEmojis[phase],
+    illumination,
+    age_days: ageDays
+  };
+}
+
 // ============ TRANSIT CALCULATIONS ============
 
 interface TransitEvent { type: string; [k: string]: unknown }
@@ -455,6 +616,35 @@ Deno.serve(async (req) => {
       return new Response(JSON.stringify(report, null, 2), { headers: { ...corsHeaders, "Content-Type": "application/json" } });
     }
     
+    // GET or POST request for moon phases
+    if (path === "moon-phases" || path === "moon") {
+      let year = new Date().getFullYear();
+      
+      if (req.method === "GET") {
+        const yearParam = url.searchParams.get("year");
+        if (yearParam) year = parseInt(yearParam);
+      } else if (req.method === "POST") {
+        const body = await req.json();
+        if (body.year) year = body.year;
+      }
+      
+      console.log(`Calculating moon phases for year: ${year}`);
+      const phases = calcMoonPhases(year);
+      const currentJd = toJD(new Date().getFullYear(), new Date().getMonth() + 1, new Date().getDate(), new Date().getHours());
+      const current = getCurrentMoonPhase(currentJd);
+      
+      return new Response(JSON.stringify({
+        success: true,
+        year,
+        total_phases: phases.length,
+        current: {
+          ...current,
+          moon_position: getSign(lon("moon", currentJd))
+        },
+        phases
+      }, null, 2), { headers: { ...corsHeaders, "Content-Type": "application/json" } });
+    }
+    
     if (req.method === "POST") {
       const body = await req.json();
       
@@ -536,6 +726,16 @@ Deno.serve(async (req) => {
           query_params: { years: "Comma-separated years (default: 2025,2026,2027)" },
           returns: "Ingresses, retrogrades, and major aspects for each year"
         },
+        "GET /moon-phases": {
+          description: "Get all moon phases for a year with current moon info",
+          query_params: { year: "Year to calculate (default: current year)" },
+          returns: "All new/full/quarter moons with current phase and illumination"
+        },
+        "POST /moon-phases": {
+          description: "Get moon phases for specified year",
+          body: { year: "Year to calculate (default: current year)" },
+          returns: "All new/full/quarter moons with current phase and illumination"
+        },
         "POST /natal": {
           description: "Calculate a complete natal chart with rising sign",
           body: {
@@ -562,6 +762,7 @@ Deno.serve(async (req) => {
       },
       examples: {
         transits: "GET /transits?years=2025,2026,2027",
+        moon_phases: "GET /moon-phases?year=2025",
         natal_chart: {
           year: 1990, month: 6, day: 15, hour: 14, minute: 30,
           latitude: 40.7128, longitude: -74.0060, timezone: -5, name: "Example"
