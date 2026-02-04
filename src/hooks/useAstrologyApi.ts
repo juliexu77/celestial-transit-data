@@ -114,13 +114,26 @@ export interface NatalChart {
 
 // ============ API FUNCTIONS ============
 
+const API_BASE_URL = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/natal-chart`;
+const API_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+
 async function fetchMoonPhases(year: number): Promise<MoonPhasesResponse> {
-  const { data, error } = await supabase.functions.invoke("natal-chart/moon-phases", {
-    body: { year },
-  });
+  console.log(`[AstrologyAPI] Fetching moon phases for ${year}`);
   
-  if (error) throw new Error(error.message);
-  return data;
+  const response = await fetch(`${API_BASE_URL}/moon-phases?year=${year}`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      'apikey': API_KEY,
+    },
+  });
+
+  if (!response.ok) {
+    console.error(`[AstrologyAPI] Moon phases request failed: ${response.status}`);
+    throw new Error(`Failed to fetch moon phases: ${response.status}`);
+  }
+
+  return response.json();
 }
 
 async function fetchTransits(years: number[]): Promise<TransitReport> {
