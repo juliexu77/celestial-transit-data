@@ -429,19 +429,20 @@ function calcMoonPhases(year: number): MoonPhase[] {
   return phases.sort((a, b) => a.jd - b.jd);
 }
 
-function getCurrentMoonPhase(jd: number): { phase: string; name: string; emoji: string; illumination: number; age_days: number } {
+function getCurrentMoonPhase(jd: number): { phase: string; name: string; emoji: string; illumination: number; age_days: number; debug_angle: number } {
   const angle = getSunMoonAngle(jd);
   
-  // Determine phase name from angle
+  // Determine phase name from angle - tighter ranges around exact phases
+  // Major phases (new, quarters, full) get ~20° window centered on exact, intermediate phases fill the rest
   let phase: string;
-  if (angle < 22.5 || angle >= 337.5) phase = "new";
-  else if (angle < 67.5) phase = "waxing_crescent";
-  else if (angle < 112.5) phase = "first_quarter";
-  else if (angle < 157.5) phase = "waxing_gibbous";
-  else if (angle < 202.5) phase = "full";
-  else if (angle < 247.5) phase = "waning_gibbous";
-  else if (angle < 292.5) phase = "last_quarter";
-  else phase = "waning_crescent";
+  if (angle < 15 || angle >= 345) phase = "new";           // 0° ± 15°
+  else if (angle < 80) phase = "waxing_crescent";          // 15° - 80°
+  else if (angle < 100) phase = "first_quarter";           // 80° - 100° (90° ± 10°)
+  else if (angle < 170) phase = "waxing_gibbous";          // 100° - 170°
+  else if (angle < 190) phase = "full";                    // 170° - 190° (180° ± 10°)
+  else if (angle < 260) phase = "waning_gibbous";          // 190° - 260°
+  else if (angle < 280) phase = "last_quarter";            // 260° - 280° (270° ± 10°)
+  else phase = "waning_crescent";                          // 280° - 345°
   
   const phaseNames: Record<string, string> = {
     new: "New Moon", waxing_crescent: "Waxing Crescent", first_quarter: "First Quarter",
@@ -465,7 +466,8 @@ function getCurrentMoonPhase(jd: number): { phase: string; name: string; emoji: 
     name: phaseNames[phase],
     emoji: phaseEmojis[phase],
     illumination,
-    age_days: ageDays
+    age_days: ageDays,
+    debug_angle: Math.round(angle * 100) / 100
   };
 }
 
