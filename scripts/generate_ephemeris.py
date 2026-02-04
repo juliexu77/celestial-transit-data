@@ -21,6 +21,8 @@ from lib.moon_phases import generate_year_moon_phases
 from lib.aspects import generate_year_aspects
 from lib.ingresses import generate_year_ingresses
 from lib.retrogrades import generate_year_retrogrades
+from lib.eclipses import generate_year_eclipses
+from lib.curated_events import generate_curated_year
 from utils.formatters import save_json, format_datetime_iso
 
 
@@ -111,9 +113,22 @@ def generate_all_data(years: list[int]):
         print(f"{'='*60}")
         generate_year_retrogrades(year)
 
+        # 5. Eclipses
+        print(f"\n{'='*60}")
+        print(f"GENERATING ECLIPSES FOR {year}")
+        print(f"{'='*60}")
+        generate_year_eclipses(year)
+
         print(f"\n{'*'*60}")
         print(f"* COMPLETED YEAR {year}")
         print(f"{'*'*60}\n")
+
+    # After all years are generated, create curated files
+    print(f"\n{'='*60}")
+    print(f"GENERATING CURATED EVENT FILES")
+    print(f"{'='*60}")
+    for year in years:
+        generate_curated_year(year)
 
     print(f"\n{'#'*60}")
     print(f"# GENERATION COMPLETE!")
@@ -152,7 +167,7 @@ Examples:
 
     parser.add_argument(
         '--type',
-        choices=['positions', 'moon-phases', 'major-transits', 'retrogrades', 'all'],
+        choices=['positions', 'moon-phases', 'major-transits', 'retrogrades', 'eclipses', 'curated', 'all'],
         default='all',
         help='Type of data to generate (default: all)'
     )
@@ -193,6 +208,10 @@ Examples:
                     generate_major_transits(year)
                 elif data_type == 'retrogrades':
                     generate_year_retrogrades(year)
+                elif data_type == 'eclipses':
+                    generate_year_eclipses(year)
+                elif data_type == 'curated':
+                    generate_curated_year(year)
 
         print("\n✓ Generation completed successfully!\n")
 

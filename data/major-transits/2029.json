@@ -1,7 +1,7 @@
 {
   "metadata": {
     "year": 2029,
-    "generated_at": "2026-02-04T00:15:31Z",
+    "generated_at": "2026-02-04T22:19:33Z",
     "ephemeris_version": "Swiss Ephemeris 2.10.03",
     "aspects_tracked": "Outer planets (Jupiter-Pluto) and Sun to outer planets"
   },
@@ -113,6 +113,69 @@
     },
     {
       "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Pluto",
+      "date": "2029-02-03T00:00:00Z",
+      "julian_day": 2462170.5,
+      "planet1_position": {
+        "longitude": 302.451217,
+        "sign": "Aquarius",
+        "degree": 2.451217
+      },
+      "planet2_position": {
+        "longitude": 308.597765,
+        "sign": "Aquarius",
+        "degree": 8.597765
+      },
+      "exactness": 6.14654741,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Neptune",
+      "date": "2029-03-23T00:00:00Z",
+      "julian_day": 2462218.5,
+      "planet1_position": {
+        "longitude": 2.434359,
+        "sign": "Aries",
+        "degree": 2.434359
+      },
+      "planet2_position": {
+        "longitude": 8.338044,
+        "sign": "Aries",
+        "degree": 8.338044
+      },
+      "exactness": 5.9036849,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Saturn",
+      "date": "2029-04-19T00:00:00Z",
+      "julian_day": 2462245.5,
+      "planet1_position": {
+        "longitude": 35.921774,
+        "sign": "Taurus",
+        "degree": 5.921774
+      },
+      "planet2_position": {
+        "longitude": 42.500402,
+        "sign": "Taurus",
+        "degree": 12.500402
+      },
+      "exactness": 6.5786288,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
       "aspect": "trine",
       "symbol": "△",
       "planet1": "Jupiter",
@@ -134,6 +197,27 @@
     },
     {
       "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Uranus",
+      "date": "2029-05-14T00:00:00Z",
+      "julian_day": 2462270.5,
+      "planet1_position": {
+        "longitude": 66.719699,
+        "sign": "Gemini",
+        "degree": 6.719699
+      },
+      "planet2_position": {
+        "longitude": 73.070897,
+        "sign": "Gemini",
+        "degree": 13.070897
+      },
+      "exactness": 6.35119818,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
       "aspect": "opposition",
       "symbol": "☍",
       "planet1": "Jupiter",
@@ -151,6 +235,48 @@
         "degree": 10.401346
       },
       "exactness": 7.88452997,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Mars",
+      "planet2": "Jupiter",
+      "date": "2029-07-02T00:00:00Z",
+      "julian_day": 2462319.5,
+      "planet1_position": {
+        "longitude": 190.4922,
+        "sign": "Libra",
+        "degree": 10.4922
+      },
+      "planet2_position": {
+        "longitude": 197.992422,
+        "sign": "Libra",
+        "degree": 17.992422
+      },
+      "exactness": 7.50022165,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Jupiter",
+      "date": "2029-09-01T00:00:00Z",
+      "julian_day": 2462380.5,
+      "planet1_position": {
+        "longitude": 199.076439,
+        "sign": "Libra",
+        "degree": 19.076439
+      },
+      "planet2_position": {
+        "longitude": 205.526112,
+        "sign": "Libra",
+        "degree": 25.526112
+      },
+      "exactness": 6.44967222,
       "orb_used": 8
     },
     {
@@ -193,6 +319,27 @@
         "degree": 20.686
       },
       "exactness": 7.625024,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Mars",
+      "planet2": "Pluto",
+      "date": "2029-12-16T00:00:00Z",
+      "julian_day": 2462486.5,
+      "planet1_position": {
+        "longitude": 302.164051,
+        "sign": "Aquarius",
+        "degree": 2.164051
+      },
+      "planet2_position": {
+        "longitude": 308.74882,
+        "sign": "Aquarius",
+        "degree": 8.74882
+      },
+      "exactness": 6.58476815,
       "orb_used": 8
     }
   ],
@@ -1555,6 +1702,15 @@
       "from_sign": "Virgo",
       "to_sign": "Libra",
       "exact_degree": 29.99931499
+    },
+    {
+      "type": "ingress",
+      "planet": "TrueNode",
+      "date": "2029-09-23T00:00:00Z",
+      "julian_day": 2462402.5,
+      "from_sign": "Capricorn",
+      "to_sign": "Capricorn",
+      "exact_degree": 0.1179967
     },
     {
       "type": "ingress",

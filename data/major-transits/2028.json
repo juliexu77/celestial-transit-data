@@ -1,7 +1,7 @@
 {
   "metadata": {
     "year": 2028,
-    "generated_at": "2026-02-04T00:15:30Z",
+    "generated_at": "2026-02-04T22:19:32Z",
     "ephemeris_version": "Swiss Ephemeris 2.10.03",
     "aspects_tracked": "Outer planets (Jupiter-Pluto) and Sun to outer planets"
   },
@@ -92,6 +92,132 @@
     },
     {
       "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Mars",
+      "planet2": "Pluto",
+      "date": "2028-01-03T00:00:00Z",
+      "julian_day": 2461773.5,
+      "planet1_position": {
+        "longitude": 299.476817,
+        "sign": "Capricorn",
+        "degree": 29.476817
+      },
+      "planet2_position": {
+        "longitude": 306.023338,
+        "sign": "Aquarius",
+        "degree": 6.023338
+      },
+      "exactness": 6.54652093,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Neptune",
+      "date": "2028-02-06T00:00:00Z",
+      "julian_day": 2461807.5,
+      "planet1_position": {
+        "longitude": 358.335989,
+        "sign": "Pisces",
+        "degree": 28.335989
+      },
+      "planet2_position": {
+        "longitude": 4.620773,
+        "sign": "Aries",
+        "degree": 4.620773
+      },
+      "exactness": 6.28478419,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Saturn",
+      "date": "2028-02-23T00:00:00Z",
+      "julian_day": 2461824.5,
+      "planet1_position": {
+        "longitude": 17.960211,
+        "sign": "Aries",
+        "degree": 17.960211
+      },
+      "planet2_position": {
+        "longitude": 24.198773,
+        "sign": "Aries",
+        "degree": 24.198773
+      },
+      "exactness": 6.23856243,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Mars",
+      "planet2": "Neptune",
+      "date": "2028-03-19T00:00:00Z",
+      "julian_day": 2461849.5,
+      "planet1_position": {
+        "longitude": 359.363253,
+        "sign": "Pisces",
+        "degree": 29.363253
+      },
+      "planet2_position": {
+        "longitude": 6.041678,
+        "sign": "Aries",
+        "degree": 6.041678
+      },
+      "exactness": 6.67842562,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Uranus",
+      "date": "2028-04-04T00:00:00Z",
+      "julian_day": 2461865.5,
+      "planet1_position": {
+        "longitude": 60.129107,
+        "sign": "Gemini",
+        "degree": 0.129107
+      },
+      "planet2_position": {
+        "longitude": 67.03088,
+        "sign": "Gemini",
+        "degree": 7.03088
+      },
+      "exactness": 6.90177359,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Mars",
+      "planet2": "Saturn",
+      "date": "2028-04-20T00:00:00Z",
+      "julian_day": 2461881.5,
+      "planet1_position": {
+        "longitude": 24.005466,
+        "sign": "Aries",
+        "degree": 24.005466
+      },
+      "planet2_position": {
+        "longitude": 30.87172,
+        "sign": "Taurus",
+        "degree": 0.87172
+      },
+      "exactness": 6.86625423,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
       "aspect": "square",
       "symbol": "□",
       "planet1": "Saturn",
@@ -110,6 +236,69 @@
       },
       "exactness": 5.79815914,
       "orb_used": 6
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Uranus",
+      "date": "2028-05-23T00:00:00Z",
+      "julian_day": 2461914.5,
+      "planet1_position": {
+        "longitude": 76.81533,
+        "sign": "Gemini",
+        "degree": 16.81533
+      },
+      "planet2_position": {
+        "longitude": 69.565796,
+        "sign": "Gemini",
+        "degree": 9.565796
+      },
+      "exactness": 7.24953335,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Mars",
+      "planet2": "Uranus",
+      "date": "2028-06-13T00:00:00Z",
+      "julian_day": 2461935.5,
+      "planet1_position": {
+        "longitude": 63.737466,
+        "sign": "Gemini",
+        "degree": 3.737466
+      },
+      "planet2_position": {
+        "longitude": 70.795703,
+        "sign": "Gemini",
+        "degree": 10.795703
+      },
+      "exactness": 7.05823703,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Uranus",
+      "date": "2028-06-29T00:00:00Z",
+      "julian_day": 2461951.5,
+      "planet1_position": {
+        "longitude": 63.861182,
+        "sign": "Gemini",
+        "degree": 3.861182
+      },
+      "planet2_position": {
+        "longitude": 71.6961,
+        "sign": "Gemini",
+        "degree": 11.6961
+      },
+      "exactness": 7.83491876,
+      "orb_used": 8
     },
     {
       "type": "aspect",
@@ -173,6 +362,27 @@
       },
       "exactness": 5.73407677,
       "orb_used": 6
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Jupiter",
+      "date": "2028-11-04T00:00:00Z",
+      "julian_day": 2462079.5,
+      "planet1_position": {
+        "longitude": 189.033952,
+        "sign": "Libra",
+        "degree": 9.033952
+      },
+      "planet2_position": {
+        "longitude": 195.21531,
+        "sign": "Libra",
+        "degree": 15.21531
+      },
+      "exactness": 6.18135821,
+      "orb_used": 8
     },
     {
       "type": "aspect",
@@ -637,6 +847,15 @@
       "from_sign": "Pisces",
       "to_sign": "Aries",
       "exact_degree": 0.00030691
+    },
+    {
+      "type": "ingress",
+      "planet": "TrueNode",
+      "date": "2028-03-26T00:00:00Z",
+      "julian_day": 2461856.5,
+      "from_sign": "Aquarius",
+      "to_sign": "Aquarius",
+      "exact_degree": 0.13194159
     },
     {
       "type": "ingress",

@@ -5,7 +5,7 @@ Calculate major aspects between outer planets.
 import swisseph as swe
 from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Any, Tuple
-from lib.config import PLANETS, SWEPH_FLAGS, ASPECTS, OUTER_PLANETS
+from lib.config import PLANETS, SWEPH_FLAGS, ASPECTS, OUTER_PLANETS, INNER_PLANETS_FOR_CONJUNCTIONS
 from utils.formatters import get_zodiac_sign, format_datetime_iso, round_decimal
 from utils.julian_date import datetime_to_julian_day, julian_day_to_datetime
 
@@ -137,7 +137,7 @@ def find_aspects(year: int) -> List[Dict[str, Any]]:
     while current_date < end_date:
         current_jd = datetime_to_julian_day(current_date)
 
-        # Check all pairs of outer planets
+        # Check all pairs of outer planets (all aspects)
         for i, planet1 in enumerate(OUTER_PLANETS):
             for planet2 in OUTER_PLANETS[i + 1:]:
                 lon1 = get_planet_longitude(current_jd, planet1)
@@ -199,6 +199,64 @@ def find_aspects(year: int) -> List[Dict[str, Any]]:
                         # Aspect is not active, remove from tracking
                         if aspect_key in active_aspects:
                             del active_aspects[aspect_key]
+
+        # Check conjunctions between inner planets (Venus, Mars) and outer planets
+        for inner_planet in INNER_PLANETS_FOR_CONJUNCTIONS:
+            for outer_planet in OUTER_PLANETS:
+                lon1 = get_planet_longitude(current_jd, inner_planet)
+                lon2 = get_planet_longitude(current_jd, outer_planet)
+                angle = calculate_aspect_angle(lon1, lon2)
+
+                # Only track conjunctions for inner-outer pairs
+                aspect_name = 'conjunction'
+                aspect_data = ASPECTS[aspect_name]
+                aspect_key = f"{inner_planet}-{outer_planet}-{aspect_name}"
+
+                if is_in_aspect(angle, aspect_name):
+                    if aspect_key not in active_aspects:
+                        prev_jd = current_jd - 1.0
+                        exact_jd = find_exact_aspect_time(
+                            prev_jd, current_jd + 1.0,
+                            inner_planet, outer_planet,
+                            aspect_data['angle']
+                        )
+
+                        exact_lon1 = get_planet_longitude(exact_jd, inner_planet)
+                        exact_lon2 = get_planet_longitude(exact_jd, outer_planet)
+
+                        sign1, degree1 = get_zodiac_sign(exact_lon1)
+                        sign2, degree2 = get_zodiac_sign(exact_lon2)
+
+                        exact_angle = calculate_aspect_angle(exact_lon1, exact_lon2)
+                        exactness = abs(exact_angle - aspect_data['angle'])
+
+                        aspect_info = {
+                            'type': 'aspect',
+                            'aspect': aspect_name,
+                            'symbol': aspect_data['symbol'],
+                            'planet1': inner_planet,
+                            'planet2': outer_planet,
+                            'date': format_datetime_iso(julian_day_to_datetime(exact_jd)),
+                            'julian_day': round_decimal(exact_jd),
+                            'planet1_position': {
+                                'longitude': round_decimal(exact_lon1),
+                                'sign': sign1,
+                                'degree': round_decimal(degree1)
+                            },
+                            'planet2_position': {
+                                'longitude': round_decimal(exact_lon2),
+                                'sign': sign2,
+                                'degree': round_decimal(degree2)
+                            },
+                            'exactness': round_decimal(exactness, 8),
+                            'orb_used': aspect_data['orb']
+                        }
+
+                        aspects_found.append(aspect_info)
+                        active_aspects[aspect_key] = True
+                else:
+                    if aspect_key in active_aspects:
+                        del active_aspects[aspect_key]
 
         current_date += timedelta(days=1)
 

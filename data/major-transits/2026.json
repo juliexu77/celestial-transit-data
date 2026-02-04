@@ -1,7 +1,7 @@
 {
   "metadata": {
     "year": 2026,
-    "generated_at": "2026-02-04T00:15:28Z",
+    "generated_at": "2026-02-04T22:19:31Z",
     "ephemeris_version": "Swiss Ephemeris 2.10.03",
     "aspects_tracked": "Outer planets (Jupiter-Pluto) and Sun to outer planets"
   },
@@ -134,6 +134,48 @@
     },
     {
       "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Pluto",
+      "date": "2026-01-15T00:00:00Z",
+      "julian_day": 2461055.5,
+      "planet1_position": {
+        "longitude": 296.818201,
+        "sign": "Capricorn",
+        "degree": 26.818201
+      },
+      "planet2_position": {
+        "longitude": 303.153418,
+        "sign": "Aquarius",
+        "degree": 3.153418
+      },
+      "exactness": 6.33521752,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Mars",
+      "planet2": "Pluto",
+      "date": "2026-01-19T00:00:00Z",
+      "julian_day": 2461059.5,
+      "planet1_position": {
+        "longitude": 296.585524,
+        "sign": "Capricorn",
+        "degree": 26.585524
+      },
+      "planet2_position": {
+        "longitude": 303.281096,
+        "sign": "Aquarius",
+        "degree": 3.281096
+      },
+      "exactness": 6.69557206,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
       "aspect": "sextile",
       "symbol": "⚹",
       "planet1": "Saturn",
@@ -155,6 +197,90 @@
     },
     {
       "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Neptune",
+      "date": "2026-03-02T00:00:00Z",
+      "julian_day": 2461101.5,
+      "planet1_position": {
+        "longitude": 354.460811,
+        "sign": "Pisces",
+        "degree": 24.460811
+      },
+      "planet2_position": {
+        "longitude": 1.079947,
+        "sign": "Aries",
+        "degree": 1.079947
+      },
+      "exactness": 6.61913565,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Saturn",
+      "date": "2026-03-03T00:00:00Z",
+      "julian_day": 2461102.5,
+      "planet1_position": {
+        "longitude": 355.706741,
+        "sign": "Pisces",
+        "degree": 25.706741
+      },
+      "planet2_position": {
+        "longitude": 1.963331,
+        "sign": "Aries",
+        "degree": 1.963331
+      },
+      "exactness": 6.25658946,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Mars",
+      "planet2": "Neptune",
+      "date": "2026-04-04T00:00:00Z",
+      "julian_day": 2461134.5,
+      "planet1_position": {
+        "longitude": 355.46292,
+        "sign": "Pisces",
+        "degree": 25.46292
+      },
+      "planet2_position": {
+        "longitude": 2.316196,
+        "sign": "Aries",
+        "degree": 2.316196
+      },
+      "exactness": 6.8532761,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Mars",
+      "planet2": "Saturn",
+      "date": "2026-04-09T00:00:00Z",
+      "julian_day": 2461139.5,
+      "planet1_position": {
+        "longitude": 359.363746,
+        "sign": "Pisces",
+        "degree": 29.363746
+      },
+      "planet2_position": {
+        "longitude": 6.537811,
+        "sign": "Aries",
+        "degree": 6.537811
+      },
+      "exactness": 7.17406421,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
       "aspect": "trine",
       "symbol": "△",
       "planet1": "Uranus",
@@ -173,6 +299,48 @@
       },
       "exactness": 5.93973781,
       "orb_used": 6
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Uranus",
+      "date": "2026-04-19T00:00:00Z",
+      "julian_day": 2461149.5,
+      "planet1_position": {
+        "longitude": 53.703394,
+        "sign": "Taurus",
+        "degree": 23.703394
+      },
+      "planet2_position": {
+        "longitude": 59.62502,
+        "sign": "Taurus",
+        "degree": 29.62502
+      },
+      "exactness": 5.9216257,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Jupiter",
+      "date": "2026-06-03T00:00:00Z",
+      "julian_day": 2461194.5,
+      "planet1_position": {
+        "longitude": 107.754761,
+        "sign": "Cancer",
+        "degree": 17.754761
+      },
+      "planet2_position": {
+        "longitude": 114.447423,
+        "sign": "Cancer",
+        "degree": 24.447423
+      },
+      "exactness": 6.69266235,
+      "orb_used": 8
     },
     {
       "type": "aspect",
@@ -215,6 +383,27 @@
       },
       "exactness": 5.69207453,
       "orb_used": 6
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Mars",
+      "planet2": "Uranus",
+      "date": "2026-06-24T00:00:00Z",
+      "julian_day": 2461215.5,
+      "planet1_position": {
+        "longitude": 56.554809,
+        "sign": "Taurus",
+        "degree": 26.554809
+      },
+      "planet2_position": {
+        "longitude": 63.347672,
+        "sign": "Gemini",
+        "degree": 3.347672
+      },
+      "exactness": 6.79286364,
+      "orb_used": 8
     },
     {
       "type": "aspect",
@@ -277,6 +466,27 @@
         "degree": 2.434033
       },
       "exactness": 7.89970785,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Mars",
+      "planet2": "Jupiter",
+      "date": "2026-10-28T00:00:00Z",
+      "julian_day": 2461341.5,
+      "planet1_position": {
+        "longitude": 136.581811,
+        "sign": "Leo",
+        "degree": 16.581811
+      },
+      "planet2_position": {
+        "longitude": 143.818772,
+        "sign": "Leo",
+        "degree": 23.818772
+      },
+      "exactness": 7.23696025,
       "orb_used": 8
     },
     {
@@ -1234,6 +1444,15 @@
     },
     {
       "type": "ingress",
+      "planet": "Chiron",
+      "date": "2026-06-19T21:00:00Z",
+      "julian_day": 2461211.375,
+      "from_sign": "Aries",
+      "to_sign": "Taurus",
+      "exact_degree": 29.99947722
+    },
+    {
+      "type": "ingress",
       "planet": "Sun",
       "date": "2026-06-21T08:23:26Z",
       "julian_day": 2461212.849609,
@@ -1420,6 +1639,15 @@
       "from_sign": "Sagitarius",
       "to_sign": "Capricorn",
       "exact_degree": 29.99958063
+    },
+    {
+      "type": "ingress",
+      "planet": "TrueNode",
+      "date": "2026-07-28T00:00:00Z",
+      "julian_day": 2461249.5,
+      "from_sign": "Pisces",
+      "to_sign": "Pisces",
+      "exact_degree": 29.93257308
     },
     {
       "type": "ingress",
@@ -1690,6 +1918,15 @@
       "from_sign": "Scorpio",
       "to_sign": "Sagitarius",
       "exact_degree": 29.99993367
+    },
+    {
+      "type": "ingress",
+      "planet": "Chiron",
+      "date": "2026-09-19T00:00:00Z",
+      "julian_day": 2461302.5,
+      "from_sign": "Taurus",
+      "to_sign": "Taurus",
+      "exact_degree": 29.96647511
     },
     {
       "type": "ingress",

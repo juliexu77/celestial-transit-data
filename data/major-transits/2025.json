@@ -1,7 +1,7 @@
 {
   "metadata": {
     "year": 2025,
-    "generated_at": "2026-02-04T00:15:27Z",
+    "generated_at": "2026-02-04T22:19:30Z",
     "ephemeris_version": "Swiss Ephemeris 2.10.03",
     "aspects_tracked": "Outer planets (Jupiter-Pluto) and Sun to outer planets"
   },
@@ -71,6 +71,48 @@
     },
     {
       "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Saturn",
+      "date": "2025-01-12T00:00:00Z",
+      "julian_day": 2460687.5,
+      "planet1_position": {
+        "longitude": 339.180589,
+        "sign": "Pisces",
+        "degree": 9.180589
+      },
+      "planet2_position": {
+        "longitude": 345.433107,
+        "sign": "Pisces",
+        "degree": 15.433107
+      },
+      "exactness": 6.25251745,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Neptune",
+      "date": "2025-01-24T00:00:00Z",
+      "julian_day": 2460699.5,
+      "planet1_position": {
+        "longitude": 350.654744,
+        "sign": "Pisces",
+        "degree": 20.654744
+      },
+      "planet2_position": {
+        "longitude": 357.751935,
+        "sign": "Pisces",
+        "degree": 27.751935
+      },
+      "exactness": 7.09719088,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
       "aspect": "sextile",
       "symbol": "⚹",
       "planet1": "Saturn",
@@ -130,6 +172,48 @@
         "degree": 29.039002
       },
       "exactness": 7.85951938,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Neptune",
+      "date": "2025-03-16T00:00:00Z",
+      "julian_day": 2460750.5,
+      "planet1_position": {
+        "longitude": 6.873648,
+        "sign": "Aries",
+        "degree": 6.873648
+      },
+      "planet2_position": {
+        "longitude": 359.451547,
+        "sign": "Pisces",
+        "degree": 29.451547
+      },
+      "exactness": 7.42210084,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Saturn",
+      "date": "2025-03-26T00:00:00Z",
+      "julian_day": 2460760.5,
+      "planet1_position": {
+        "longitude": 0.814502,
+        "sign": "Aries",
+        "degree": 0.814502
+      },
+      "planet2_position": {
+        "longitude": 353.763746,
+        "sign": "Pisces",
+        "degree": 23.763746
+      },
+      "exactness": 7.05075649,
       "orb_used": 8
     },
     {
@@ -236,6 +320,48 @@
       },
       "exactness": 5.88369953,
       "orb_used": 6
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Uranus",
+      "date": "2025-06-28T00:00:00Z",
+      "julian_day": 2460854.5,
+      "planet1_position": {
+        "longitude": 52.73636,
+        "sign": "Taurus",
+        "degree": 22.73636
+      },
+      "planet2_position": {
+        "longitude": 59.562096,
+        "sign": "Taurus",
+        "degree": 29.562096
+      },
+      "exactness": 6.82573607,
+      "orb_used": 8
+    },
+    {
+      "type": "aspect",
+      "aspect": "conjunction",
+      "symbol": "☌",
+      "planet1": "Venus",
+      "planet2": "Jupiter",
+      "date": "2025-08-05T00:00:00Z",
+      "julian_day": 2460892.5,
+      "planet1_position": {
+        "longitude": 95.609003,
+        "sign": "Cancer",
+        "degree": 5.609003
+      },
+      "planet2_position": {
+        "longitude": 102.562283,
+        "sign": "Cancer",
+        "degree": 12.562283
+      },
+      "exactness": 6.95328041,
+      "orb_used": 8
     },
     {
       "type": "aspect",
@@ -394,6 +520,15 @@
       "from_sign": "Taurus",
       "to_sign": "Gemini",
       "exact_degree": 29.9997935
+    },
+    {
+      "type": "ingress",
+      "planet": "TrueNode",
+      "date": "2025-01-11T00:00:00Z",
+      "julian_day": 2460686.5,
+      "from_sign": "Aries",
+      "to_sign": "Aries",
+      "exact_degree": 0.16496543
     },
     {
       "type": "ingress",
